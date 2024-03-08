@@ -327,7 +327,46 @@
     "category": "Pet",
     "command": "/tag get name:Meowth category:Pet"
   },
-
+  {
+    "src": "pet/majima.gif",
+    "alt": "name:Majima category:Pet",
+    "keywords": "",
+    "name": "Majima",
+    "category": "Pet",
+    "command": "/tag get name:Majima category:Pet"
+  },
+  {
+    "src": "pet/luna.gif",
+    "alt": "name:Luna category:Pet",
+    "keywords": "",
+    "name": "Luna",
+    "category": "Pet",
+    "command": "/tag get name:Luna category:Pet"
+  },
+  {
+    "src": "pet/loyben.gif",
+    "alt": "name:Loyben category:Pet",
+    "keywords": "",
+    "name": "Loyben",
+    "category": "Pet",
+    "command": "/tag get name:Loyben category:Pet"
+  },
+  {
+    "src": "pet/link.gif",
+    "alt": "name:Link category:Pet",
+    "keywords": "",
+    "name": "Link",
+    "category": "Pet",
+    "command": "/tag get name:Link category:Pet"
+  },
+  {
+    "src": "pet/king.gif",
+    "alt": "name:King category:Pet",
+    "keywords": "",
+    "name": "King",
+    "category": "Pet",
+    "command": "/tag get name:King category:Pet"
+  },
   {
     "src": "pet/kiki.gif",
     "alt": "name:Kiki category:Pet",
@@ -353,5 +392,4 @@
     "command": "/tag get name:17 category:Bonk"
   }
 ]
-
 
