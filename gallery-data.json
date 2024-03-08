@@ -231,7 +231,30 @@
     "category": "Pet",
     "command": "/tag get name:Sanchez category:Pet"
   },
-
+  {
+    "src": "pet/rowful.gif",
+    "alt": "name:Rowful category:Pet",
+    "keywords": "",
+    "name": "Rowful",
+    "category": "Pet",
+    "command": "/tag get name:Rowful category:Pet"
+  },
+  {
+    "src": "pet/rosa.gif",
+    "alt": "name:Rosa category:Pet",
+    "keywords": "",
+    "name": "Rosa",
+    "category": "Pet",
+    "command": "/tag get name:Rosa category:Pet"
+  },
+  {
+    "src": "pet/queb.gif",
+    "alt": "name:Queb category:Pet",
+    "keywords": "",
+    "name": "Queb",
+    "category": "Pet",
+    "command": "/tag get name:Queb category:Pet"
+  },
 
   {
     "src": "pet/kiki.gif",
