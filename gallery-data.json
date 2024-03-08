@@ -1,0 +1,42 @@
+[
+  {
+    "src": "dead/kill.png",
+    "alt": "name:Kill category:Dead",
+    "keywords": "you fucking fuckin killed me D:",
+    "name": "Kill",
+    "category": "Dead",
+    "command": "/tag get name:Kill category:Dead"
+  },
+  {
+    "src": "dead/Ouija.png",
+    "alt": "name:Ouija category:Dead",
+    "keywords": "Ouijaboard board",
+    "name": "Ouija",
+    "category": "Dead",
+    "command": "/tag get name:Ouija category:Dead"
+  },
+  {
+    "src": "pet/kiki.gif",
+    "alt": "name:Kiki category:Pet",
+    "keywords": "petthekiki",
+    "name": "Kiki",
+    "category": "Pet",
+    "command": "/tag get name:Kiki category:Pet"
+  },
+  {
+    "src": "uncategorized/boat.png",
+    "alt": "name:boat",
+    "keywords": "",
+    "name": "boat",
+    "category": "uncategorized",
+    "command": "/tag get name:boat"
+  },
+  {
+    "src": "bonk/17.gif",
+    "alt": "name:17 category:Bonk",
+    "keywords": "seventeen",
+    "name": "17",
+    "category": "Bonk",
+    "command": "/tag get name:17 category:Bonk"
+  }
+]

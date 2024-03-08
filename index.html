@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="wrapper">
+  <div id="search-box">
+    <input type="text" id="search" placeholder="Search...">
+  </div>
+
+  <div id="category-links">
+    <!-- Links for filtering images by category -->
+    <a href="#" class="category-link active-category" data-category="all">All Categories</a>
+    <a href="#" class="category-link" data-category="Dead">Dead</a>
+    <a href="#" class="category-link" data-category="Pet">Pet</a>
+    <a href="#" class="category-link" data-category="Uncategorized">Uncategorized</a>
+    <a href="#" class="category-link" data-category="Bonk">Bonk</a>
+  </div>
+
+  <div id="gallery"></div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
