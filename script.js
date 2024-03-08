@@ -1,6 +1,9 @@
-  fetch('gallery-data.json')
+fetch('gallery-data.json')
   .then(response => response.json())
   .then(data => {
+    // Sort the data array alphabetically by name
+    data.sort((a, b) => a.name.localeCompare(b.name));
+
     const galleryDiv = document.getElementById('gallery');
     data.forEach(item => {
       const imageContainer = document.createElement('div');
