@@ -41,6 +41,7 @@
 // Add event listener to the gallery container for delegation
 document.getElementById('gallery').addEventListener('click', function(event) {
   // Check if the clicked element is an image
+  console.log('Clicked on an image');
   if (event.target.tagName === 'IMG') {
     const command = event.target.getAttribute('data-command');
     copyToClipboard(command);
