@@ -1,9 +1,6 @@
-fetch('gallery-data.json')
+  fetch('gallery-data.json')
   .then(response => response.json())
   .then(data => {
-    // Sort the data array alphabetically by the "name" property
-    data.sort((a, b) => a.name.localeCompare(b.name));
-
     const galleryDiv = document.getElementById('gallery');
     data.forEach(item => {
       const imageContainer = document.createElement('div');
@@ -23,7 +20,8 @@ fetch('gallery-data.json')
   })
   .catch(error => console.error('Error fetching gallery data:', error));
 
-// JavaScript for search functionality
+
+  // JavaScript for search functionality
   const searchInput = document.getElementById('search');
   const gallery = document.getElementById('gallery').children;
 
@@ -40,24 +38,25 @@ fetch('gallery-data.json')
     });
   });
 
-  // Add event listener to each image for copying data-command to clipboard
-  document.querySelectorAll('#gallery img').forEach(img => {
-    img.addEventListener('click', function() {
-      const command = this.getAttribute('data-command');
-      copyToClipboard(command);
-      alert('Command copied to clipboard: ' + command);
-    });
-  });
-
-  // Function to copy text to clipboard
-  function copyToClipboard(text) {
-    const textarea = document.createElement('textarea');
-    textarea.value = text;
-    document.body.appendChild(textarea);
-    textarea.select();
-    document.execCommand('copy');
-    document.body.removeChild(textarea);
+// Add event listener to the gallery container for delegation
+document.getElementById('gallery').addEventListener('click', function(event) {
+  // Check if the clicked element is an image
+  if (event.target.tagName === 'IMG') {
+    const command = event.target.getAttribute('data-command');
+    copyToClipboard(command);
+    alert('Command copied to clipboard: ' + command);
   }
+});
+
+// Function to copy text to clipboard
+function copyToClipboard(text) {
+  const textarea = document.createElement('textarea');
+  textarea.value = text;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand('copy');
+  document.body.removeChild(textarea);
+}
 
   // Add event listeners to category links for filtering images
   document.querySelectorAll('.category-link').forEach(link => {
