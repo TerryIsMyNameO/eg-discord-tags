@@ -1,11 +1,51 @@
 [
-  {
-    "src": "dead/kill.png",
-    "alt": "name:Kill category:Dead",
-    "keywords": "you fucking fuckin killed me D:",
-    "name": "Kill",
+   {
+    "src": "dead/yes.png",
+    "alt": "name:Yes category:Dead",
+    "keywords": "",
+    "name": "Yes",
     "category": "Dead",
-    "command": "/tag get name:Kill category:Dead"
+    "command": "/tag get name:Yes category:Dead"
+  },
+    {
+    "src": "dead/wave.png",
+    "alt": "name:Wave category:Dead",
+    "keywords": "hi",
+    "name": "Wave",
+    "category": "Dead",
+    "command": "/tag get name:Wave category:Dead"
+  },
+  {
+    "src": "dead/wait.png",
+    "alt": "name:Wait category:Dead",
+    "keywords": "wait till until I reveive",
+    "name": "Wait",
+    "category": "Dead",
+    "command": "/tag get name:Wait category:Dead"
+  },
+  {
+    "src": "dead/talk.png",
+    "alt": "name:Talk category:Dead",
+    "keywords": "",
+    "name": "Talk",
+    "category": "Dead",
+    "command": "/tag get name:Talk category:Dead"
+  },
+  {
+    "src": "dead/sleep.png",
+    "alt": "name:Sleep category:Dead",
+    "keywords": "",
+    "name": "Sleep",
+    "category": "Dead",
+    "command": "/tag get name:Sleep category:Dead"
+  },
+  {
+    "src": "dead/sadcat.png",
+    "alt": "name:SadCat category:Dead",
+    "keywords": "",
+    "name": "SadCat",
+    "category": "Dead",
+    "command": "/tag get name:SadCat category:Dead"
   },
   {
     "src": "dead/ouija.png",
@@ -15,6 +55,96 @@
     "category": "Dead",
     "command": "/tag get name:Ouija category:Dead"
   },
+  {
+    "src": "dead/notfine.png",
+    "alt": "name:NotFine category:Dead",
+    "keywords": "it's not fine",
+    "name": "NotFine",
+    "category": "Dead",
+    "command": "/tag get name:NotFine category:Dead"
+  },
+  {
+    "src": "dead/no.png",
+    "alt": "name:No category:Dead",
+    "keywords": "",
+    "name": "No",
+    "category": "Dead",
+    "command": "/tag get name:No category:Dead"
+  },
+  {
+    "src": "dead/night.png",
+    "alt": "name:Night category:Dead",
+    "keywords": "",
+    "name": "Night",
+    "category": "Dead",
+    "command": "/tag get name:Night category:Dead"
+  },
+  {
+    "src": "dead/luigi.png",
+    "alt": "name:Luigi category:Dead",
+    "keywords": "",
+    "name": "Luigi",
+    "category": "Dead",
+    "command": "/tag get name:Luigi category:Dead"
+  },
+  {
+    "src": "dead/letmetalk.png",
+    "alt": "name:LetMeTalk category:Dead",
+    "keywords": "please give me a few momment after reviving so I can actually say something",
+    "name": "LetMeTalk",
+    "category": "Dead",
+    "command": "/tag get name:LetMeTalk category:Dead"
+  },
+  {
+    "src": "dead/knife.png",
+    "alt": "name:Knife category:Dead",
+    "keywords": "",
+    "name": "Knife",
+    "category": "Dead",
+    "command": "/tag get name:Knife category:Dead"
+  },
+  {
+    "src": "dead/kill.png",
+    "alt": "name:Kill category:Dead",
+    "keywords": "you fucking fuckin killed me D:",
+    "name": "Kill",
+    "category": "Dead",
+    "command": "/tag get name:Kill category:Dead"
+  },
+  {
+    "src": "dead/idk.png",
+    "alt": "name:Idk category:Dead",
+    "keywords": "I don't know",
+    "name": "Idk",
+    "category": "Dead",
+    "command": "/tag get name:Idk category:Dead"
+  },
+  {
+    "src": "dead/growup.png",
+    "alt": "name:GrowUp category:Dead",
+    "keywords": "Killing me just because I tried to kill you? Grow up",
+    "name": "GrowUp",
+    "category": "Dead",
+    "command": "/tag get name:GrowUp category:Dead"
+  },
+  {
+    "src": "dead/fine.png",
+    "alt": "name:Fine category:Dead",
+    "keywords": "",
+    "name": "Fine",
+    "category": "Dead",
+    "command": "/tag get name:Fine category:Dead"
+  },
+  {
+    "src": "dead/dang.png",
+    "alt": "name:Dang category:Dead",
+    "keywords": "",
+    "name": "Dang",
+    "category": "Dead",
+    "command": "/tag get name:Dang category:Dead"
+  },
+
+
   {
     "src": "pet/kiki.gif",
     "alt": "name:Kiki category:Pet",
