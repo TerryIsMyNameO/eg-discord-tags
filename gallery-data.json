@@ -143,6 +143,94 @@
     "category": "Dead",
     "command": "/tag get name:Dang category:Dead"
   },
+  {
+    "src": "pet/zeno.gif",
+    "alt": "name:Zeno category:Pet",
+    "keywords": "",
+    "name": "Zeno",
+    "category": "Pet",
+    "command": "/tag get name:Zeno category:Pet"
+  },
+  {
+    "src": "pet/zelda.gif",
+    "alt": "name:Zelda category:Pet",
+    "keywords": "",
+    "name": "Zelda",
+    "category": "Pet",
+    "command": "/tag get name:Zelda category:Pet"
+  },
+  {
+    "src": "pet/zeidor.gif",
+    "alt": "name:Zeidor category:Pet",
+    "keywords": "",
+    "name": "Zeidor",
+    "category": "Pet",
+    "command": "/tag get name:Zeidor category:Pet"
+  },
+  {
+    "src": "pet/wantoo.gif",
+    "alt": "name:WanToo category:Pet",
+    "keywords": "",
+    "name": "WanToo",
+    "category": "Pet",
+    "command": "/tag get name:WanToo category:Pet"
+  },
+  {
+    "src": "pet/ty.gif",
+    "alt": "name:Ty category:Pet",
+    "keywords": "",
+    "name": "Ty",
+    "category": "Pet",
+    "command": "/tag get name:Ty category:Pet"
+  },
+  {
+    "src": "pet/twitch.gif",
+    "alt": "name:Twitch category:Pet",
+    "keywords": "",
+    "name": "Twitch",
+    "category": "Pet",
+    "command": "/tag get name:Twitch category:Pet"
+  },
+  {
+    "src": "pet/tomkitten.gif",
+    "alt": "name:TomKitten category:Pet",
+    "keywords": "",
+    "name": "TomKitten",
+    "category": "Pet",
+    "command": "/tag get name:TomKitten category:Pet"
+  },
+  {
+    "src": "pet/terry.gif",
+    "alt": "name:Terry category:Pet",
+    "keywords": "",
+    "name": "Terry",
+    "category": "Pet",
+    "command": "/tag get name:Terry category:Pet"
+  },
+  {
+    "src": "pet/smeargle.gif",
+    "alt": "name:Smeargle category:Pet",
+    "keywords": "",
+    "name": "Smeargle",
+    "category": "Pet",
+    "command": "/tag get name:Smeargle category:Pet"
+  },
+  {
+    "src": "pet/simba.gif",
+    "alt": "name:Simba category:Pet",
+    "keywords": "",
+    "name": "Simba",
+    "category": "Pet",
+    "command": "/tag get name:Simba category:Pet"
+  },
+  {
+    "src": "pet/sanchez.gif",
+    "alt": "name:Sanchez category:Pet",
+    "keywords": "",
+    "name": "Sanchez",
+    "category": "Pet",
+    "command": "/tag get name:Sanchez category:Pet"
+  },
 
 
   {
@@ -170,3 +258,5 @@
     "command": "/tag get name:17 category:Bonk"
   }
 ]
+
+
