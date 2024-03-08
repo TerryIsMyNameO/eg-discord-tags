@@ -255,6 +255,78 @@
     "category": "Pet",
     "command": "/tag get name:Queb category:Pet"
   },
+  {
+    "src": "pet/pixel.gif",
+    "alt": "name:Pixel category:Pet",
+    "keywords": "",
+    "name": "Pixel",
+    "category": "Pet",
+    "command": "/tag get name:Pixel category:Pet"
+  },
+  {
+    "src": "pet/penny.gif",
+    "alt": "name:Penny category:Pet",
+    "keywords": "",
+    "name": "Penny",
+    "category": "Pet",
+    "command": "/tag get name:Penny category:Pet"
+  },
+  {
+    "src": "pet/notrobot.gif",
+    "alt": "name:NotRobot category:Pet",
+    "keywords": "",
+    "name": "NotRobot",
+    "category": "Pet",
+    "command": "/tag get name:NotRobot category:Pet"
+  },
+  {
+    "src": "pet/noctis.gif",
+    "alt": "name:Noctis category:Pet",
+    "keywords": "",
+    "name": "Noctis",
+    "category": "Pet",
+    "command": "/tag get name:Noctis category:Pet"
+  },
+  {
+    "src": "pet/ninji.gif",
+    "alt": "name:Ninji category:Pet",
+    "keywords": "",
+    "name": "Ninji",
+    "category": "Pet",
+    "command": "/tag get name:Ninji category:Pet"
+  },
+  {
+    "src": "pet/moose.gif",
+    "alt": "name:Moose category:Pet",
+    "keywords": "",
+    "name": "Moose",
+    "category": "Pet",
+    "command": "/tag get name:Moose category:Pet"
+  },
+  {
+    "src": "pet/mods.gif",
+    "alt": "name:Mods category:Pet",
+    "keywords": "",
+    "name": "Mods",
+    "category": "Pet",
+    "command": "/tag get name:Mods category:Pet"
+  },
+  {
+    "src": "pet/misty.gif",
+    "alt": "name:Misty category:Pet",
+    "keywords": "",
+    "name": "Misty",
+    "category": "Pet",
+    "command": "/tag get name:Misty category:Pet"
+  },
+  {
+    "src": "pet/meowth.gif",
+    "alt": "name:Meowth category:Pet",
+    "keywords": "",
+    "name": "Meowth",
+    "category": "Pet",
+    "command": "/tag get name:Meowth category:Pet"
+  },
 
   {
     "src": "pet/kiki.gif",
