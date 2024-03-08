@@ -8,7 +8,7 @@
     "command": "/tag get name:Kill category:Dead"
   },
   {
-    "src": "dead/Ouija.png",
+    "src": "dead/ouija.png",
     "alt": "name:Ouija category:Dead",
     "keywords": "Ouijaboard board",
     "name": "Ouija",
