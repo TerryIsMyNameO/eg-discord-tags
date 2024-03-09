@@ -1,4 +1,30 @@
-// JavaScript for search functionality
+fetch('gallery-data.json')
+  .then(response => response.json())
+  .then(data => {
+    // Sort the data array alphabetically by name
+    data.sort((a, b) => a.name.localeCompare(b.name));
+
+    const galleryDiv = document.getElementById('gallery');
+    data.forEach(item => {
+      const imageContainer = document.createElement('div');
+      imageContainer.classList.add('image-container');
+      imageContainer.setAttribute('data-keywords', item.keywords);
+      imageContainer.setAttribute('data-name', item.name);
+      imageContainer.setAttribute('data-category', item.category);
+
+      const image = document.createElement('img');
+      image.src = item.src;
+      image.alt = item.alt;
+      image.setAttribute('data-command', item.command);
+
+      imageContainer.appendChild(image);
+      galleryDiv.appendChild(imageContainer);
+    });
+  })
+  .catch(error => console.error('Error fetching gallery data:', error));
+
+
+ // JavaScript for search functionality
 const searchInput = document.getElementById('search');
 const gallery = document.getElementById('gallery').children;
 let currentCategory = 'all'; // Initialize currentCategory
