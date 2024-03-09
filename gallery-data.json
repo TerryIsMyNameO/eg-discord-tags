@@ -682,7 +682,7 @@
   ,{
     "src": "uncategorized/speed.gif",
     "alt": "name:SPEED",
-    "keywords": "",
+    "keywords": "duck",
     "name": "SPEED",
     "category": "uncategorized",
     "command": "/tag get name:SPEED"
