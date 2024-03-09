@@ -816,6 +816,14 @@
     "command": "/tag get name: HackerDuck"
   } 
   ,{
+    "src": "uncategorized/partypup.gif",
+    "alt": "name: PartyPup",
+    "keywords": "",
+    "name": "PartyPup",
+    "category": "uncategorized",
+    "command": "/tag get name: PartyPup"
+  } 
+  ,{
     "src": "uncategorized/madgeholding.png",
     "alt": "name: MadgeHolding",
     "keywords": "pixel",
@@ -824,3 +832,5 @@
     "command": "/tag get name: MadgeHolding"
   } 
 ]
+
+
