@@ -84,3 +84,46 @@ document.getElementById('clear-search').addEventListener('click', function() {
   applySearchFilter(); // Apply search filter
   toggleClearButton(); // Hide clear button
 });
+
+// Add event listener to the gallery container for delegation
+document.getElementById('gallery').addEventListener('click', function(event) {
+  // Check if the clicked element is an image
+  //console.log('Clicked on an image');
+  if (event.target.tagName === 'IMG') {
+    const command = event.target.getAttribute('data-command');
+    copyToClipboard(command);
+    alert('Command copied to clipboard: ' + command);
+  }
+});
+
+// Function to copy text to clipboard
+function copyToClipboard(text) {
+  const textarea = document.createElement('textarea');
+  textarea.value = text;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand('copy');
+  document.body.removeChild(textarea);
+}
+
+  // Add event listeners to category links for filtering images
+  document.querySelectorAll('.category-link').forEach(link => {
+    link.addEventListener('click', function(event) {
+      event.preventDefault();
+      // Remove the active class from all category links
+      document.querySelectorAll('.category-link').forEach(link => {
+        link.classList.remove('active-category');
+      });
+      // Add active class to the clicked category link
+      this.classList.add('active-category');
+      const category = this.getAttribute('data-category').toLowerCase();
+      Array.from(gallery).forEach(item => {
+        const itemCategory = item.getAttribute('data-category').toLowerCase();
+        if (category === 'all' || itemCategory === category) {
+          item.style.display = 'inline-block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  });
