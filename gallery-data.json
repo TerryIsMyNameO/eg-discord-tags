@@ -304,6 +304,14 @@
     "command": "/tag get name:Ninji category:Pet"
   },
   {
+    "src": "pet/moth.gif",
+    "alt": "name:Moth category:Pet",
+    "keywords": "petthemoth pride",
+    "name": "Moth",
+    "category": "Pet",
+    "command": "/tag get name:Moth category:Pet"
+  },
+  {
     "src": "pet/moose.gif",
     "alt": "name:Moose category:Pet",
     "keywords": "petthemoose",
@@ -658,7 +666,7 @@
   ,{
     "src": "uncategorized/blahaj.png",
     "alt": "name:blahaj",
-    "keywords": "trans shark",
+    "keywords": "trans shark pride",
     "name": "blahaj",
     "category": "uncategorized",
     "command": "/tag get name:blahaj"
@@ -798,5 +806,21 @@
     "name": "phew",
     "category": "uncategorized",
     "command": "/tag get name: phew"
+  }
+  ,{
+    "src": "uncategorized/hackerduck.gif",
+    "alt": "name: HackerDuck",
+    "keywords": "duck",
+    "name": "HackerDuck",
+    "category": "uncategorized",
+    "command": "/tag get name: HackerDuck"
+  } 
+  ,{
+    "src": "uncategorized/madgeholding.png",
+    "alt": "name: MadgeHolding",
+    "keywords": "pixel",
+    "name": "MadgeHolding",
+    "category": "uncategorized",
+    "command": "/tag get name: MadgeHolding"
   } 
 ]
