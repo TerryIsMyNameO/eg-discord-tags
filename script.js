@@ -121,7 +121,7 @@ function copyToClipboard(text) {
       Array.from(gallery).forEach(item => {
         const itemCategory = item.getAttribute('data-category').toLowerCase();
         if (category === 'all' || itemCategory === category) {
-          item.style.display = 'inline-block';
+          item.style.display = 'flex';
         } else {
           item.style.display = 'none';
         }
