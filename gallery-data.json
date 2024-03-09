@@ -846,6 +846,14 @@
     "name": "MadgeHolding",
     "category": "uncategorized",
     "command": "/tag get name: MadgeHolding"
+  }
+   ,{
+    "src": "uncategorized/screm.png",
+    "alt": "name: Screm",
+    "keywords": "noctis",
+    "name": "Screm",
+    "category": "uncategorized",
+    "command": "/tag get name: Screm"
   } 
 ]
 
