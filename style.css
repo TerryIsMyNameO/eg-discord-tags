@@ -74,8 +74,9 @@ body {
 
 .image-container {
     display: flex;
-    flex-direction: column; /* Align items vertically */
-    justify-content: space-between; /* Distribute space evenly between items */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 img {
