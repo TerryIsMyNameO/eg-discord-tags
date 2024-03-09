@@ -66,22 +66,23 @@ body {
 }
 
 #gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
 }
 
 .image-container {
-    flex: 0 0 calc(20% - 10px);
-    margin-bottom: 20px;
-    align-items: center;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: space-between; /* Distribute space evenly between items */
+    height: 100%; 
 }
 
 img {
     width: 200px;
     height: auto;
-    border-radius: 10px;
-    cursor: pointer;
+    max-width:100%;
+    max-height:100%;
 }
 
 .active-category {
