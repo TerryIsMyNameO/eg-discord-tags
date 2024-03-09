@@ -794,7 +794,7 @@
   ,{
     "src": "uncategorized/phew.gif",
     "alt": "name: phew",
-    "keywords": "",
+    "keywords": "pepe",
     "name": "phew",
     "category": "uncategorized",
     "command": "/tag get name: phew"
