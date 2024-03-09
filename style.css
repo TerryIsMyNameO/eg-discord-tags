@@ -48,14 +48,16 @@
 
   #clear-search {
     position: absolute;
-    border-radius: 80%;
-    height: 2em;
-    width: 2em;
-    margin-right: 3%;
+    margin-right: 2%;
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 1.25em;
   }
 
   .image-container {
