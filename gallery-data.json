@@ -527,4 +527,12 @@
     "category": "Bonk",
     "command": "/tag get name:17 category:Bonk"
   }
+  {
+    "src": "bonk/queb.gif",
+    "alt": "name:Queb category:Bonk",
+    "keywords": "",
+    "name": "Queb",
+    "category": "Bonk",
+    "command": "/tag get name:Queb category:Bonk"
+  }
 ]
