@@ -74,12 +74,12 @@ body {
 .image-container {
     flex: 0 0 calc(20% - 10px);
     margin-bottom: 20px;
+    align-items: center;
 }
 
 img {
     width: 200px;
     height: auto;
-    vertical-align: middle;
     border-radius: 10px;
     cursor: pointer;
 }
