@@ -7,7 +7,7 @@
   }
 
   #wrapper {
-    padding:15px;
+    padding:15px 3%;
     max-width: 1100px;
     margin:0 auto;
     background-color: #313338;
@@ -38,6 +38,8 @@
     margin:10px 5px;
     background-color:#121212;
     border:none;
+    width: 1050px;
+    max-width: 94%;
   }
 
   .image-container {
