@@ -599,4 +599,108 @@
     "category": "uncategorized",
     "command": "/tag get name:plink"
   }
+  ,{
+    "src": "uncategorized/pikaomg.gif",
+    "alt": "name:pikaOMG",
+    "keywords": "surprised pikachu",
+    "name": "pikaOMG",
+    "category": "uncategorized",
+    "command": "/tag get name:pikaOMG"
+  }
+  ,{
+    "src": "uncategorized/kindamean.png",
+    "alt": "name:kindamean",
+    "keywords": "that was kinda kind of mean man :(",
+    "name": "kindamean",
+    "category": "uncategorized",
+    "command": "/tag get name:kindamean"
+  }
+  ,{
+    "src": "uncategorized/kindahurt.png",
+    "alt": "name:kindahurt",
+    "keywords": "that kinda kind hurt my feelings ngl",
+    "name": "kindahurt",
+    "category": "uncategorized",
+    "command": "/tag get name:kindahurt"
+  }
+  ,{
+    "src": "uncategorized/gotosleep.png",
+    "alt": "name:gotosleep",
+    "keywords": "eepy",
+    "name": "gotosleep",
+    "category": "uncategorized",
+    "command": "/tag get name:gotosleep"
+  }
+  ,{
+    "src": "uncategorized/duckinator.png",
+    "alt": "name:duckinator",
+    "keywords": "terminator",
+    "name": "duckinator",
+    "category": "uncategorized",
+    "command": "/tag get name:duckinator"
+  }
+  ,{
+    "src": "uncategorized/catjam.gif",
+    "alt": "name:catJAM",
+    "keywords": "",
+    "name": "catJAM",
+    "category": "uncategorized",
+    "command": "/tag get name:catJAM"
+  }
+  ,{
+    "src": "uncategorized/carjam.gif",
+    "alt": "name:carJAM",
+    "keywords": "",
+    "name": "carJAM",
+    "category": "uncategorized",
+    "command": "/tag get name:carJAM"
+  }
+  ,{
+    "src": "uncategorized/blahaj.png",
+    "alt": "name:blahaj",
+    "keywords": "trans shark",
+    "name": "blahaj",
+    "category": "uncategorized",
+    "command": "/tag get name:blahaj"
+  }
+  ,{
+    "src": "uncategorized/tomamore.png",
+    "alt": "name:TomAmore",
+    "keywords": "kyle fallout",
+    "name": "TomAmore",
+    "category": "uncategorized",
+    "command": "/tag get name:TomAmore"
+  }
+  ,{
+    "src": "uncategorized/timer.gif",
+    "alt": "name:TIMER",
+    "keywords": "",
+    "name": "TIMER",
+    "category": "uncategorized",
+    "command": "/tag get name:TIMER"
+  }
+  ,{
+    "src": "uncategorized/speed.gif",
+    "alt": "name:SPEED",
+    "keywords": "",
+    "name": "SPEED",
+    "category": "uncategorized",
+    "command": "/tag get name:SPEED"
+  }
+  ,{
+    "src": "uncategorized/rowful.png",
+    "alt": "name:Rowful",
+    "keywords": "robot god",
+    "name": "Rowful",
+    "category": "uncategorized",
+    "command": "/tag get name:Rowful"
+  }
+  ,{
+    "src": "uncategorized/otterjam.gif",
+    "alt": "name:OtterJAM",
+    "keywords": "",
+    "name": "OtterJAM",
+    "category": "uncategorized",
+    "command": "/tag get name: OtterJAM"
+  }
 ]
