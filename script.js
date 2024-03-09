@@ -108,23 +108,16 @@ function copyToClipboard(text) {
 }
 
   // Add event listeners to category links for filtering images
-  document.querySelectorAll('.category-link').forEach(link => {
-    link.addEventListener('click', function(event) {
-      event.preventDefault();
-      // Remove the active class from all category links
-      document.querySelectorAll('.category-link').forEach(link => {
-        link.classList.remove('active-category');
-      });
-      // Add active class to the clicked category link
-      this.classList.add('active-category');
-      const category = this.getAttribute('data-category').toLowerCase();
-      Array.from(gallery).forEach(item => {
-        const itemCategory = item.getAttribute('data-category').toLowerCase();
-        if (category === 'all' || itemCategory === category) {
-          item.style.display = 'flex';
-        } else {
-          item.style.display = 'none';
-        }
-      });
+document.querySelectorAll('.category-link').forEach(link => {
+  link.addEventListener('click', function(event) {
+    event.preventDefault();
+    // Remove the active class from all category links
+    document.querySelectorAll('.category-link').forEach(link => {
+      link.classList.remove('active-category');
     });
+    // Add active class to the clicked category link
+    this.classList.add('active-category');
+    currentCategory = this.getAttribute('data-category').toLowerCase(); // Update currentCategory
+    applySearchFilter(); // Apply search filter
   });
+});
