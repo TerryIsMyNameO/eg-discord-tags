@@ -40,6 +40,7 @@
     border:none;
     width: 1050px;
     max-width: 94%;
+    position: relative;
   }
 
   #clear-search {
