@@ -68,10 +68,19 @@ document.querySelectorAll('.category-link').forEach(link => {
   });
 });
 
-// Add event listener for clearing search input
-const clearSearchBtn = document.getElementById('clear-search');
-clearSearchBtn.addEventListener('click', function() {
+// Function to show/hide clear button based on search input value
+function toggleClearButton() {
+  const clearButton = document.getElementById('clear-search');
+  clearButton.style.display = searchInput.value ? 'block' : 'none';
+}
+
+// Add event listener to show/hide clear button
+searchInput.addEventListener('input', toggleClearButton);
+
+// Add event listener to clear search input when clear button is clicked
+document.getElementById('clear-search').addEventListener('click', function() {
   searchInput.value = ''; // Clear search input
   currentSearchTerm = ''; // Reset currentSearchTerm
   applySearchFilter(); // Apply search filter
+  toggleClearButton(); // Hide clear button
 });
