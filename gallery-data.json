@@ -528,14 +528,6 @@
     "command": "/tag get name:17 category:Pet"
   },
   {
-    "src": "uncategorized/boat.png",
-    "alt": "name:boat",
-    "keywords": "",
-    "name": "boat",
-    "category": "uncategorized",
-    "command": "/tag get name:boat"
-  },
-  {
     "src": "bonk/17.gif",
     "alt": "name:17 category:Bonk",
     "keywords": "seventeen",
@@ -550,5 +542,61 @@
     "name": "Queb",
     "category": "Bonk",
     "command": "/tag get name:Queb category:Bonk"
+  },
+  {
+    "src": "uncategorized/boat.png",
+    "alt": "name:boat",
+    "keywords": "",
+    "name": "boat",
+    "category": "uncategorized",
+    "command": "/tag get name:boat"
+  },
+  {
+    "src": "uncategorized/sus.gif",
+    "alt": "name:sus",
+    "keywords": "sus eyes pepe",
+    "name": "sus",
+    "category": "uncategorized",
+    "command": "/tag get name:sus"
+  },
+  {
+    "src": "uncategorized/spam.png",
+    "alt": "name:spam",
+    "keywords": "",
+    "name": "spam",
+    "category": "uncategorized",
+    "command": "/tag get name:spam"
+  },
+  {
+    "src": "uncategorized/salty.gif",
+    "alt": "name:salty",
+    "keywords": "",
+    "name": "salty",
+    "category": "uncategorized",
+    "command": "/tag get name:salty"
+  },
+  {
+    "src": "uncategorized/ratjam.gif",
+    "alt": "name:ratJAM",
+    "keywords": "",
+    "name": "ratJAM",
+    "category": "uncategorized",
+    "command": "/tag get name:ratJAM"
+  },
+  {
+    "src": "uncategorized/plonk.gif",
+    "alt": "name:plonk",
+    "keywords": "",
+    "name": "plonk",
+    "category": "uncategorized",
+    "command": "/tag get name:plonk"
+  }
+  ,{
+    "src": "uncategorized/plink.gif",
+    "alt": "name:plink",
+    "keywords": "",
+    "name": "plink",
+    "category": "uncategorized",
+    "command": "/tag get name:plink"
   }
 ]
