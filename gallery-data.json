@@ -526,7 +526,7 @@
     "name": "17",
     "category": "Bonk",
     "command": "/tag get name:17 category:Bonk"
-  }
+  },
   {
     "src": "bonk/queb.gif",
     "alt": "name:Queb category:Bonk",
