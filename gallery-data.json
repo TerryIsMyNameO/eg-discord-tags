@@ -703,4 +703,92 @@
     "category": "uncategorized",
     "command": "/tag get name: OtterJAM"
   }
+  ,{
+    "src": "uncategorized/nooo.gif",
+    "alt": "name: NOOO",
+    "keywords": "",
+    "name": "NOOO",
+    "category": "uncategorized",
+    "command": "/tag get name: NOOO"
+  }
+  ,{
+    "src": "uncategorized/mothdance.gif",
+    "alt": "name: MothDance",
+    "keywords": "",
+    "name": "MothDance",
+    "category": "uncategorized",
+    "command": "/tag get name: MothDance"
+  }
+  ,{
+    "src": "uncategorized/longduck.gif",
+    "alt": "name: LongDuck",
+    "keywords": "",
+    "name": "LongDuck",
+    "category": "uncategorized",
+    "command": "/tag get name: LongDuck"
+  }
+  ,{
+    "src": "uncategorized/leaving.gif",
+    "alt": "name: Leaving",
+    "keywords": "duck",
+    "name": "Leaving",
+    "category": "uncategorized",
+    "command": "/tag get name: Leaving"
+  }
+  ,{
+    "src": "uncategorized/huh.gif",
+    "alt": "name: HUH",
+    "keywords": "",
+    "name": "HUH",
+    "category": "uncategorized",
+    "command": "/tag get name: HUH"
+  }
+  ,{
+    "src": "uncategorized/excited.png",
+    "alt": "name: Excited",
+    "keywords": "duck",
+    "name": "Excited",
+    "category": "uncategorized",
+    "command": "/tag get name: Excited"
+  } 
+  ,{
+    "src": "uncategorized/dancefrog.gif",
+    "alt": "name: DanceFrog",
+    "keywords": "",
+    "name": "DanceFrog",
+    "category": "uncategorized",
+    "command": "/tag get name: DanceFrog"
+  }
+  ,{
+    "src": "uncategorized/coolhook.png",
+    "alt": "name: CoolHook",
+    "keywords": "captain",
+    "name": "CoolHook",
+    "category": "uncategorized",
+    "command": "/tag get name: CoolHook"
+  } 
+  ,{
+    "src": "uncategorized/clap.gif",
+    "alt": "name: Clap",
+    "keywords": "",
+    "name": "Clap",
+    "category": "uncategorized",
+    "command": "/tag get name: Clap"
+  }
+  ,{
+    "src": "uncategorized/communication.png",
+    "alt": "name: COMMUNICATION",
+    "keywords": "skillfull",
+    "name": "COMMUNICATION",
+    "category": "uncategorized",
+    "command": "/tag get name: COMMUNICATION"
+  } 
+  ,{
+    "src": "uncategorized/17boat.png",
+    "alt": "name: 17boat",
+    "keywords": "",
+    "name": "17boat",
+    "category": "uncategorized",
+    "command": "/tag get name: 17boat"
+  } 
 ]
