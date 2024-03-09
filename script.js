@@ -23,7 +23,6 @@ fetch('gallery-data.json')
   })
   .catch(error => console.error('Error fetching gallery data:', error));
 
-
 // JavaScript for search functionality
 const searchInput = document.getElementById('search');
 const gallery = document.getElementById('gallery').children;
@@ -67,4 +66,12 @@ document.querySelectorAll('.category-link').forEach(link => {
     currentCategory = this.getAttribute('data-category').toLowerCase(); // Update currentCategory
     applySearchFilter(); // Apply search filter
   });
+});
+
+// Add event listener for clearing search input
+const clearSearchBtn = document.getElementById('clear-search');
+clearSearchBtn.addEventListener('click', function() {
+  searchInput.value = ''; // Clear search input
+  currentSearchTerm = ''; // Reset currentSearchTerm
+  applySearchFilter(); // Apply search filter
 });
