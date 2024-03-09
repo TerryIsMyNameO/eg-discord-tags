@@ -41,7 +41,7 @@ function applySearchFilter() {
     const searchMatch = currentSearchTerm === '' || keywords.includes(currentSearchTerm) || name.includes(currentSearchTerm);
 
     if (categoryMatch && searchMatch) {
-      item.style.display = 'inline-block';
+      item.style.display = 'flex';
     } else {
       item.style.display = 'none';
     }
