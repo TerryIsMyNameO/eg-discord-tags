@@ -43,13 +43,12 @@
   }
   img {
     width: 200px;
-    height: 200px;
-    object-fit: cover;
+    height: auto;
+    vertical-align: middle;
     border-radius: 10px;
-    cursor: pointer; /* Add cursor pointer for indicating clickable */
+    cursor: pointer;
   }
 
-  /* Styling for active category link */
   .active-category {
     background-color:#01BBE4 !important;
     font-weight: bold;
