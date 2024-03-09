@@ -146,7 +146,7 @@
   {
     "src": "pet/zeno.gif",
     "alt": "name:Zeno category:Pet",
-    "keywords": "",
+    "keywords": "petthezeno",
     "name": "Zeno",
     "category": "Pet",
     "command": "/tag get name:Zeno category:Pet"
@@ -154,7 +154,7 @@
   {
     "src": "pet/zelda.gif",
     "alt": "name:Zelda category:Pet",
-    "keywords": "",
+    "keywords": "petthezelda",
     "name": "Zelda",
     "category": "Pet",
     "command": "/tag get name:Zelda category:Pet"
@@ -162,7 +162,7 @@
   {
     "src": "pet/zeidor.gif",
     "alt": "name:Zeidor category:Pet",
-    "keywords": "",
+    "keywords": "petthezeidor",
     "name": "Zeidor",
     "category": "Pet",
     "command": "/tag get name:Zeidor category:Pet"
@@ -170,7 +170,7 @@
   {
     "src": "pet/wantoo.gif",
     "alt": "name:WanToo category:Pet",
-    "keywords": "",
+    "keywords": "petthewantoo",
     "name": "WanToo",
     "category": "Pet",
     "command": "/tag get name:WanToo category:Pet"
@@ -178,7 +178,7 @@
   {
     "src": "pet/ty.gif",
     "alt": "name:Ty category:Pet",
-    "keywords": "",
+    "keywords": "petthety",
     "name": "Ty",
     "category": "Pet",
     "command": "/tag get name:Ty category:Pet"
@@ -186,7 +186,7 @@
   {
     "src": "pet/twitch.gif",
     "alt": "name:Twitch category:Pet",
-    "keywords": "",
+    "keywords": "petthetwitch",
     "name": "Twitch",
     "category": "Pet",
     "command": "/tag get name:Twitch category:Pet"
@@ -194,7 +194,7 @@
   {
     "src": "pet/tomkitten.gif",
     "alt": "name:TomKitten category:Pet",
-    "keywords": "",
+    "keywords": "petthetomkitten",
     "name": "TomKitten",
     "category": "Pet",
     "command": "/tag get name:TomKitten category:Pet"
@@ -202,7 +202,7 @@
   {
     "src": "pet/terry.gif",
     "alt": "name:Terry category:Pet",
-    "keywords": "",
+    "keywords": "pettheterry",
     "name": "Terry",
     "category": "Pet",
     "command": "/tag get name:Terry category:Pet"
@@ -210,7 +210,7 @@
   {
     "src": "pet/smeargle.gif",
     "alt": "name:Smeargle category:Pet",
-    "keywords": "",
+    "keywords": "petthesmeargle",
     "name": "Smeargle",
     "category": "Pet",
     "command": "/tag get name:Smeargle category:Pet"
@@ -218,7 +218,7 @@
   {
     "src": "pet/simba.gif",
     "alt": "name:Simba category:Pet",
-    "keywords": "",
+    "keywords": "petthesimba",
     "name": "Simba",
     "category": "Pet",
     "command": "/tag get name:Simba category:Pet"
@@ -226,7 +226,7 @@
   {
     "src": "pet/sanchez.gif",
     "alt": "name:Sanchez category:Pet",
-    "keywords": "",
+    "keywords": "petthesanchez",
     "name": "Sanchez",
     "category": "Pet",
     "command": "/tag get name:Sanchez category:Pet"
@@ -234,7 +234,7 @@
   {
     "src": "pet/rowful.gif",
     "alt": "name:Rowful category:Pet",
-    "keywords": "",
+    "keywords": "pettherowful robot",
     "name": "Rowful",
     "category": "Pet",
     "command": "/tag get name:Rowful category:Pet"
@@ -242,7 +242,7 @@
   {
     "src": "pet/rosa.gif",
     "alt": "name:Rosa category:Pet",
-    "keywords": "",
+    "keywords": "pettherosa",
     "name": "Rosa",
     "category": "Pet",
     "command": "/tag get name:Rosa category:Pet"
@@ -250,7 +250,7 @@
   {
     "src": "pet/queb.gif",
     "alt": "name:Queb category:Pet",
-    "keywords": "",
+    "keywords": "petthequeb",
     "name": "Queb",
     "category": "Pet",
     "command": "/tag get name:Queb category:Pet"
@@ -258,7 +258,7 @@
   {
     "src": "pet/pixel.gif",
     "alt": "name:Pixel category:Pet",
-    "keywords": "",
+    "keywords": "petthepixel",
     "name": "Pixel",
     "category": "Pet",
     "command": "/tag get name:Pixel category:Pet"
@@ -266,7 +266,7 @@
   {
     "src": "pet/penny.gif",
     "alt": "name:Penny category:Pet",
-    "keywords": "",
+    "keywords": "petthepenny",
     "name": "Penny",
     "category": "Pet",
     "command": "/tag get name:Penny category:Pet"
@@ -274,7 +274,7 @@
   {
     "src": "pet/notrobot.gif",
     "alt": "name:NotRobot category:Pet",
-    "keywords": "",
+    "keywords": "petthenotrobot kyle",
     "name": "NotRobot",
     "category": "Pet",
     "command": "/tag get name:NotRobot category:Pet"
@@ -282,7 +282,7 @@
   {
     "src": "pet/noctis.gif",
     "alt": "name:Noctis category:Pet",
-    "keywords": "",
+    "keywords": "petthenoctis",
     "name": "Noctis",
     "category": "Pet",
     "command": "/tag get name:Noctis category:Pet"
@@ -290,7 +290,7 @@
   {
     "src": "pet/ninji.gif",
     "alt": "name:Ninji category:Pet",
-    "keywords": "",
+    "keywords": "pettheninji",
     "name": "Ninji",
     "category": "Pet",
     "command": "/tag get name:Ninji category:Pet"
@@ -298,7 +298,7 @@
   {
     "src": "pet/moose.gif",
     "alt": "name:Moose category:Pet",
-    "keywords": "",
+    "keywords": "petthemoose",
     "name": "Moose",
     "category": "Pet",
     "command": "/tag get name:Moose category:Pet"
@@ -306,7 +306,7 @@
   {
     "src": "pet/mods.gif",
     "alt": "name:Mods category:Pet",
-    "keywords": "",
+    "keywords": "petthemods",
     "name": "Mods",
     "category": "Pet",
     "command": "/tag get name:Mods category:Pet"
@@ -314,7 +314,7 @@
   {
     "src": "pet/misty.gif",
     "alt": "name:Misty category:Pet",
-    "keywords": "",
+    "keywords": "petthemisty",
     "name": "Misty",
     "category": "Pet",
     "command": "/tag get name:Misty category:Pet"
@@ -322,7 +322,7 @@
   {
     "src": "pet/meowth.gif",
     "alt": "name:Meowth category:Pet",
-    "keywords": "",
+    "keywords": "petthemeowth",
     "name": "Meowth",
     "category": "Pet",
     "command": "/tag get name:Meowth category:Pet"
@@ -330,7 +330,7 @@
   {
     "src": "pet/majima.gif",
     "alt": "name:Majima category:Pet",
-    "keywords": "",
+    "keywords": "petthemajima",
     "name": "Majima",
     "category": "Pet",
     "command": "/tag get name:Majima category:Pet"
@@ -338,7 +338,7 @@
   {
     "src": "pet/luna.gif",
     "alt": "name:Luna category:Pet",
-    "keywords": "",
+    "keywords": "pettheluna",
     "name": "Luna",
     "category": "Pet",
     "command": "/tag get name:Luna category:Pet"
@@ -346,7 +346,7 @@
   {
     "src": "pet/loyben.gif",
     "alt": "name:Loyben category:Pet",
-    "keywords": "",
+    "keywords": "pettheloyben lou",
     "name": "Loyben",
     "category": "Pet",
     "command": "/tag get name:Loyben category:Pet"
@@ -354,7 +354,7 @@
   {
     "src": "pet/link.gif",
     "alt": "name:Link category:Pet",
-    "keywords": "",
+    "keywords": "petthelink",
     "name": "Link",
     "category": "Pet",
     "command": "/tag get name:Link category:Pet"
@@ -362,7 +362,7 @@
   {
     "src": "pet/king.gif",
     "alt": "name:King category:Pet",
-    "keywords": "",
+    "keywords": "pettheking interestking",
     "name": "King",
     "category": "Pet",
     "command": "/tag get name:King category:Pet"
@@ -374,6 +374,142 @@
     "name": "Kiki",
     "category": "Pet",
     "command": "/tag get name:Kiki category:Pet"
+  },
+  {
+    "src": "pet/justin.gif",
+    "alt": "name:Justin category:Pet",
+    "keywords": "petthejustin",
+    "name": "Justin",
+    "category": "Pet",
+    "command": "/tag get name:Justin category:Pet"
+  },
+  {
+    "src": "pet/joush.gif",
+    "alt": "name:Joush category:Pet",
+    "keywords": "petthejoush",
+    "name": "Joush",
+    "category": "Pet",
+    "command": "/tag get name:Joush category:Pet"
+  },
+  {
+    "src": "pet/hook.gif",
+    "alt": "name:Hook category:Pet",
+    "keywords": "petthehook captain",
+    "name": "Hook",
+    "category": "Pet",
+    "command": "/tag get name:Hook category:Pet"
+  },
+  {
+    "src": "pet/hejhog.gif",
+    "alt": "name:HejHog category:Pet",
+    "keywords": "petthehejhog",
+    "name": "HejHog",
+    "category": "Pet",
+    "command": "/tag get name:HejHog category:Pet"
+  },
+  {
+    "src": "pet/hamster.gif",
+    "alt": "name:Hamster category:Pet",
+    "keywords": "petthehamster",
+    "name": "Hamster",
+    "category": "Pet",
+    "command": "/tag get name:Hamster category:Pet"
+  },
+  {
+    "src": "pet/green.gif",
+    "alt": "name:Green category:Pet",
+    "keywords": "petthegreen",
+    "name": "Green",
+    "category": "Pet",
+    "command": "/tag get name:Green category:Pet"
+  },
+  {
+    "src": "pet/fudge.gif",
+    "alt": "name:Fudge category:Pet",
+    "keywords": "petthefudge",
+    "name": "Fudge",
+    "category": "Pet",
+    "command": "/tag get name:Fudge category:Pet"
+  },
+  {
+    "src": "pet/eax.gif",
+    "alt": "name:Eax category:Pet",
+    "keywords": "pettheeax",
+    "name": "Eax",
+    "category": "Pet",
+    "command": "/tag get name:Eax category:Pet"
+  },
+  {
+    "src": "pet/drak.gif",
+    "alt": "name:Drak category:Pet",
+    "keywords": "petthedrak",
+    "name": "Drak",
+    "category": "Pet",
+    "command": "/tag get name:Drak category:Pet"
+  },
+  {
+    "src": "pet/cheesegoblin.gif",
+    "alt": "name:CheeseGoblin category:Pet",
+    "keywords": "petthecheesegoblin",
+    "name": "CheeseGoblin",
+    "category": "Pet",
+    "command": "/tag get name:CheeseGoblin category:Pet"
+  },
+  {
+    "src": "pet/captain.gif",
+    "alt": "name:Captain category:Pet",
+    "keywords": "petthecaptain p ness penis",
+    "name": "Captain",
+    "category": "Pet",
+    "command": "/tag get name:Captain category:Pet"
+  },
+  {
+    "src": "pet/being.gif",
+    "alt": "name:Being category:Pet",
+    "keywords": "petthebeing athebeing",
+    "name": "Being",
+    "category": "Pet",
+    "command": "/tag get name:Being category:Pet"
+  },
+  {
+    "src": "pet/appel.gif",
+    "alt": "name:Appel category:Pet",
+    "keywords": "pettheappel sour",
+    "name": "Appel",
+    "category": "Pet",
+    "command": "/tag get name:Appel category:Pet"
+  },
+  {
+    "src": "pet/3.gif",
+    "alt": "name:3 category:Pet",
+    "keywords": ":3 petthe",
+    "name": "3",
+    "category": "Pet",
+    "command": "/tag get name:3 category:Pet"
+  },
+  {
+    "src": "pet/222dog.gif",
+    "alt": "name:222Dog category:Pet",
+    "keywords": "petthe222dog bear",
+    "name": "222Dog",
+    "category": "Pet",
+    "command": "/tag get name:222Dog category:Pet"
+  },
+  {
+    "src": "pet/222.gif",
+    "alt": "name:222 category:Pet",
+    "keywords": "petthe222 robert katie",
+    "name": "222",
+    "category": "Pet",
+    "command": "/tag get name:222 category:Pet"
+  },
+  {
+    "src": "pet/17.gif",
+    "alt": "name:17 category:Pet",
+    "keywords": "petthe17 seventeen",
+    "name": "17",
+    "category": "Pet",
+    "command": "/tag get name:17 category:Pet"
   },
   {
     "src": "uncategorized/boat.png",
@@ -392,4 +528,3 @@
     "command": "/tag get name:17 category:Bonk"
   }
 ]
-
