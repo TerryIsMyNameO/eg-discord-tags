@@ -42,6 +42,15 @@
     max-width: 94%;
   }
 
+  .clear-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: none; /* Hide the clear icon by default */
+  }
+
   .image-container {
     display: inline-block;
     margin: 10px;
