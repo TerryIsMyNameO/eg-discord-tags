@@ -39,12 +39,12 @@ body {
 
   #search-box {
     position: relative;
+    margin:10px 5px;
   }
 
   #search {
     font-size:1.25em;
     padding: .5em 1em;
-    margin:10px 5px;
     background-color:#121212;
     border:none;
     width: 1200px;
