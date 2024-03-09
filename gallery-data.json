@@ -256,6 +256,14 @@
     "command": "/tag get name:Queb category:Pet"
   },
   {
+    "src": "pet/plant.gif",
+    "alt": "name:Plant category:Pet",
+    "keywords": "pettheplant",
+    "name": "Plant",
+    "category": "Pet",
+    "command": "/tag get name:Plant category:Pet"
+  },
+  {
     "src": "pet/pixel.gif",
     "alt": "name:Pixel category:Pet",
     "keywords": "petthepixel",
@@ -462,6 +470,14 @@
     "name": "Captain",
     "category": "Pet",
     "command": "/tag get name:Captain category:Pet"
+  },
+  {
+    "src": "pet/bunny.gif",
+    "alt": "name:Bunny category:Pet",
+    "keywords": "petthebunny cranky",
+    "name": "Bunny",
+    "category": "Pet",
+    "command": "/tag get name:Bunny category:Pet"
   },
   {
     "src": "pet/being.gif",
