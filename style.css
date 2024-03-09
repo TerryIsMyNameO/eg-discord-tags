@@ -32,6 +32,10 @@
     margin-bottm:15px;
   }
 
+  #search-box {
+    position: relative;
+  }
+
   #search {
     font-size:1.25em;
     padding: .5em 1em;
@@ -40,11 +44,11 @@
     border:none;
     width: 1050px;
     max-width: 94%;
-    position: relative;
   }
 
   #clear-search {
     position: absolute;
+    margin-right: 6%;
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
