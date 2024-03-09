@@ -24,27 +24,34 @@ fetch('gallery-data.json')
   .catch(error => console.error('Error fetching gallery data:', error));
 
 
- // JavaScript for search functionality
+// JavaScript for search functionality
 const searchInput = document.getElementById('search');
 const gallery = document.getElementById('gallery').children;
 let currentCategory = 'all'; // Initialize currentCategory
+let currentSearchTerm = ''; // Initialize currentSearchTerm
 
-searchInput.addEventListener('input', function() {
-  const searchTerm = this.value.toLowerCase();
+// Function to apply search filter
+function applySearchFilter() {
   Array.from(gallery).forEach(item => {
     const keywords = item.getAttribute('data-keywords').toLowerCase();
     const name = item.getAttribute('data-name').toLowerCase();
     const category = item.getAttribute('data-category').toLowerCase();
 
-    // Check if the item belongs to the currently selected category
+    // Check if the item belongs to the currently selected category and matches the search term
     const categoryMatch = currentCategory === 'all' || category === currentCategory;
+    const searchMatch = currentSearchTerm === '' || keywords.includes(currentSearchTerm) || name.includes(currentSearchTerm);
 
-    if ((searchTerm === '' || keywords.includes(searchTerm) || name.includes(searchTerm)) && categoryMatch) {
+    if (categoryMatch && searchMatch) {
       item.style.display = 'inline-block';
     } else {
       item.style.display = 'none';
     }
   });
+}
+
+searchInput.addEventListener('input', function() {
+  currentSearchTerm = this.value.toLowerCase(); // Update currentSearchTerm
+  applySearchFilter(); // Apply search filter
 });
 
 // Add event listeners to category links for filtering images
@@ -58,17 +65,6 @@ document.querySelectorAll('.category-link').forEach(link => {
     // Add active class to the clicked category link
     this.classList.add('active-category');
     currentCategory = this.getAttribute('data-category').toLowerCase(); // Update currentCategory
-    Array.from(gallery).forEach(item => {
-      const category = item.getAttribute('data-category').toLowerCase();
-
-      // Check if the item belongs to the currently selected category
-      const categoryMatch = currentCategory === 'all' || category === currentCategory;
-
-      if (categoryMatch) {
-        item.style.display = 'inline-block';
-      } else {
-        item.style.display = 'none';
-      }
-    });
+    applySearchFilter(); // Apply search filter
   });
 });
