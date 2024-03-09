@@ -15,6 +15,7 @@ fetch('gallery-data.json')
       const image = document.createElement('img');
       image.src = item.src;
       image.alt = item.alt;
+      image.title = item.alt;
       image.setAttribute('data-command', item.command);
 
       imageContainer.appendChild(image);
