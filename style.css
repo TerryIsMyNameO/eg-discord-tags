@@ -4,6 +4,10 @@
     box-sizing: border-box; 
 }
 
+html,body { 
+    height:100%;
+}
+
 body {
     margin:0;
     background-color: #222222;
@@ -14,6 +18,7 @@ body {
 #wrapper {
     padding:15px 2%;
     max-width: 1200px;
+    min-height: 100%;
     margin:0 auto;
     background-color: #313338;
 }
