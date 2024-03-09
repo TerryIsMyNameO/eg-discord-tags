@@ -143,6 +143,22 @@
     "category": "Dead",
     "command": "/tag get name:Dang category:Dead"
   },
+   {
+    "src": "dead/madgeholding.png",
+    "alt": "name: MadgeHolding | category: Dead",
+    "keywords": "pixel",
+    "name": "MadgeHolding",
+    "category": "Dead",
+    "command": "/tag get name:MadgeHolding category:Dead"
+  },
+   {
+    "src": "dead/again.png",
+    "alt": "name: Again | category: Dead",
+    "keywords": "really",
+    "name": "Again",
+    "category": "Dead",
+    "command": "/tag get name:Again category:Dead"
+  },
   {
     "src": "pet/zeno.gif",
     "alt": "name: Zeno | category: Pet",
