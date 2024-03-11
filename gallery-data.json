@@ -862,6 +862,21 @@
     "name": "Nopers",
     "category": "uncategorized",
     "command": "/tag get name: Nopers"
+  }    ,{
+    "src": "uncategorized/VulpxEZ.png",
+    "alt": "name: VulpixEZ",
+    "keywords": "",
+    "name": "VulpixEZ",
+    "category": "uncategorized",
+    "command": "/tag get name: VulpixEZ"
+  } 
+   ,{
+    "src": "uncategorized/noders.gif",
+    "alt": "name: Noders",
+    "keywords": "vulpix",
+    "name": "Nopers",
+    "category": "uncategorized",
+    "command": "/tag get name: Noders"
   } 
 ]
 
