@@ -119,6 +119,14 @@
     "category": "Dead",
     "command": "/tag get name:Idk category:Dead"
   },
+   {
+    "src": "dead/gun.png",
+    "alt": "name: Gun | category: Dead",
+    "keywords": "can someone take their gun already",
+    "name": "Gun",
+    "category": "Dead",
+    "command": "/tag get name:Gun category:Dead"
+  }
   {
     "src": "dead/growup.png",
     "alt": "name: GrowUp | category: Dead",
