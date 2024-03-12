@@ -126,7 +126,7 @@
     "name": "Gun",
     "category": "Dead",
     "command": "/tag get name:Gun category:Dead"
-  }
+  },
   {
     "src": "dead/growup.png",
     "alt": "name: GrowUp | category: Dead",
