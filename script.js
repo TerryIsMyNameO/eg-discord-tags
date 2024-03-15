@@ -7,6 +7,7 @@ fetch('gallery-data.json')
 
     const galleryDiv = document.getElementById('gallery');
     data.forEach(item => {
+      // Create imageContainer div
       const imageContainer = document.createElement('div');
       imageContainer.classList.add('image-container');
       imageContainer.setAttribute('data-keywords', item.keywords);
@@ -17,32 +18,52 @@ fetch('gallery-data.json')
       var cmdCat = ''; // Initialize cmdCat
       var dispCat = ''; // Initialize dispCat
 
-      //check if tag is categorized and update cmdCat and dispCat
+      // Check if tag is categorized and update cmdCat and dispCat
       if (item.category !== ''){
         cmdCat = ' category: ' + item.category;
         dispCat = " |" + cmdCat;
       }
 
-      const cmd = '/tag get ' + cmdName + cmdCat;
-
+      // Generate and set title for tooltip
       imageContainer.title = cmdName + dispCat;
+
+      // Generate and set command to be copied
+      const cmd = '/tag get ' + cmdName + cmdCat;
       imageContainer.setAttribute('data-command', cmd);
 
-
+      // Create image element
       const image = document.createElement('img');
       image.src = item.src;
 
+      // Create div for clipboard icon on hover
       const iconContainer = document.createElement('div');
       iconContainer.classList.add('icon');
 
-      const icon = document.createElement('i');
-      icon.classList.add('fa');
-      icon.classList.add('fa-clipboard');
-      icon.setAttribute('aria-hidden', 'true');
+      // Create clipboard SVG element
+      const clipboard = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+      clipboard.setAttribute("class", "react-button");
+      clipboard.setAttribute("xmlns", "http://www.w3.org/2000/svg");
+      clipboard.setAttribute("viewBox", "0 0 496 512");
 
+      // Create and set the path for the SVG
+      const pathElement = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      pathElement.setAttribute("fill", "#ffffff");
+      pathElement.setAttribute("d", "M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm80 168c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zm-160 0c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zm194.8 170.2C334.3 380.4 292.5 400 248 400s-86.3-19.6-114.8-53.8c-13.6-16.3 11-36.7 24.6-20.5 22.4 26.9 55.2 42.2 90.2 42.2s67.8-15.4 90.2-42.2c13.4-16.2 38.1 4.2 24.6 20.5z");
+
+      // Set the comment for the SVG
+      clipboard.appendChild(document.createComment("Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc."));
+
+      // Append the path to the SVG element
+      clipboard.appendChild(pathElement);
+
+      // Append SVG clipboard to iconContainer
+      iconContainer.appendChild(clipboard);
+
+      // Append image and iconContainer to imageContainer
       imageContainer.appendChild(image);
-      iconContainer.appendChild(icon);
       imageContainer.appendChild(iconContainer);
+
+      // Append imageContainer to gallery
       galleryDiv.appendChild(imageContainer);
     });
   })
@@ -132,7 +153,12 @@ function copyToClipboard(text) {
   document.body.removeChild(textarea);
 }
 
-// Listen for if info button is clicked
+// Listen for when the react button is clicked
+document.getElementById('react-button').addEventListener('click', function(event) {
+  alert("uh..this doesn't do anything yet");
+});
+
+// Listen for when the info button is clicked
 document.getElementById('info-button').addEventListener('click', function(event) {
   alert("uh..this doesn't do anything yet");
 });
