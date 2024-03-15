@@ -1,3 +1,4 @@
+// Generate tag gallery from json file
 fetch('gallery-data.json')
   .then(response => response.json())
   .then(data => {
@@ -12,25 +13,87 @@ fetch('gallery-data.json')
       imageContainer.setAttribute('data-name', item.name);
       imageContainer.setAttribute('data-category', item.category);
 
+      const cmdName = 'name: ' + item.name;
+      const cmdCat = ''; // Initialize cmdCat
+      const dispCat = ''; // Initialize dispCat
+
+      //check if tag is categorized and update cmdCat and dispCat
+      if (item.category !== ''){
+        cmdCat = ' category: ' + item.category;
+        dispCat = " |" + cmdCat;
+      }
+
+      const cmd = '/tag get ' + cmdName + cmdCat;
+
+      imageContainer.title = cmdName + dispCat;
+      imageContainer.setAttribute('data-command', cmd);
+
+
       const image = document.createElement('img');
       image.src = item.src;
-      image.alt = item.alt;
-      image.title = item.alt;
-      image.setAttribute('data-command', item.command);
+
+      const iconContainer = document.createElement('div');
+      iconContainer.classList.add('icon');
+
+      const icon = document.createElement('i');
+      icon.classList.add('fa');
+      icon.classList.add('fa-clipboard');
+      icon.setAttribute('aria-hidden', 'true');
 
       imageContainer.appendChild(image);
+      iconContainer.appendChild(icon);
+      imageContainer.appendChild(iconcontainer);
       galleryDiv.appendChild(imageContainer);
     });
   })
   .catch(error => console.error('Error fetching gallery data:', error));
 
-// JavaScript for search functionality
+
+// Listen for clicks on category links and filter images based on chosen category
+document.querySelectorAll('.category-link').forEach(link => {
+  link.addEventListener('click', function(event) {
+    event.preventDefault();
+    // Remove the active class from all category links
+    document.querySelectorAll('.category-link').forEach(link => {
+      link.classList.remove('active-category');
+    });
+    // Add active class to the clicked category link
+    this.classList.add('active-category');
+    currentCategory = this.getAttribute('data-category').toLowerCase(); // Update currentCategory
+    applySearchFilter(); // Apply search filter
+  });
+});
+
+
+// Search
 const searchInput = document.getElementById('search');
 const gallery = document.getElementById('gallery').children;
 let currentCategory = 'all'; // Initialize currentCategory
 let currentSearchTerm = ''; // Initialize currentSearchTerm
 
-// Function to apply search filter
+// Read Search Input
+searchInput.addEventListener('input', function() {
+  currentSearchTerm = this.value.toLowerCase(); // Update currentSearchTerm
+  applySearchFilter(); // Apply search filter
+});
+
+
+// Clear search input when clear button is clicked
+document.getElementById('clear-search').addEventListener('click', function() {
+  searchInput.value = ''; // Clear search input
+  currentSearchTerm = ''; // Reset currentSearchTerm
+  applySearchFilter(); // Apply search filter
+  toggleClearButton(); // Hide clear button
+});
+
+// Show/hide clear button
+searchInput.addEventListener('input', toggleClearButton);
+function toggleClearButton() {
+  const clearButton = document.getElementById('clear-search');
+  clearButton.style.display = searchInput.value ? 'block' : 'none';
+}
+
+// Apply search filter
 function applySearchFilter() {
   Array.from(gallery).forEach(item => {
     const keywords = item.getAttribute('data-keywords').toLowerCase();
@@ -49,49 +112,11 @@ function applySearchFilter() {
   });
 }
 
-searchInput.addEventListener('input', function() {
-  currentSearchTerm = this.value.toLowerCase(); // Update currentSearchTerm
-  applySearchFilter(); // Apply search filter
-});
-
-// Add event listeners to category links for filtering images
-document.querySelectorAll('.category-link').forEach(link => {
-  link.addEventListener('click', function(event) {
-    event.preventDefault();
-    // Remove the active class from all category links
-    document.querySelectorAll('.category-link').forEach(link => {
-      link.classList.remove('active-category');
-    });
-    // Add active class to the clicked category link
-    this.classList.add('active-category');
-    currentCategory = this.getAttribute('data-category').toLowerCase(); // Update currentCategory
-    applySearchFilter(); // Apply search filter
-  });
-});
-
-// Function to show/hide clear button based on search input value
-function toggleClearButton() {
-  const clearButton = document.getElementById('clear-search');
-  clearButton.style.display = searchInput.value ? 'block' : 'none';
-}
-
-// Add event listener to show/hide clear button
-searchInput.addEventListener('input', toggleClearButton);
-
-// Add event listener to clear search input when clear button is clicked
-document.getElementById('clear-search').addEventListener('click', function() {
-  searchInput.value = ''; // Clear search input
-  currentSearchTerm = ''; // Reset currentSearchTerm
-  applySearchFilter(); // Apply search filter
-  toggleClearButton(); // Hide clear button
-});
-
-// Add event listener to the gallery container for delegation
+// Listen if gallery item is clicked
 document.getElementById('gallery').addEventListener('click', function(event) {
-  // Check if the clicked element is an image
-  //console.log('Clicked on an image');
-  if (event.target.tagName === 'IMG') {
-    const command = event.target.getAttribute('data-command');
+  const clickedContainer = event.target.closest('.image-container');
+  if (clickedContainer) {
+    const command = clickedContainer.getAttribute('data-command');
     copyToClipboard(command);
     alert('Command copied to clipboard: ' + command);
   }
@@ -107,17 +132,7 @@ function copyToClipboard(text) {
   document.body.removeChild(textarea);
 }
 
-  // Add event listeners to category links for filtering images
-document.querySelectorAll('.category-link').forEach(link => {
-  link.addEventListener('click', function(event) {
-    event.preventDefault();
-    // Remove the active class from all category links
-    document.querySelectorAll('.category-link').forEach(link => {
-      link.classList.remove('active-category');
-    });
-    // Add active class to the clicked category link
-    this.classList.add('active-category');
-    currentCategory = this.getAttribute('data-category').toLowerCase(); // Update currentCategory
-    applySearchFilter(); // Apply search filter
-  });
+// Listen for if info button is clicked
+document.getElementById('info-button').addEventListener('click', function(event) {
+  alert("uh..this doesn't do anything yet");
 });
