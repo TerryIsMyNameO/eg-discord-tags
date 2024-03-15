@@ -86,7 +86,7 @@ body {
 
 .image-container {
   width: 200px;
-  margin: 10px;
+  margin: 0 auto;
   text-align: center;
   position: relative;
   overflow: hidden;
