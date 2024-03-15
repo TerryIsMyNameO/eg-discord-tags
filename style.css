@@ -57,6 +57,7 @@ body {
     padding: .5em 1em;
     background-color:#121212;
     border:none;
+    outline: none;
     width: 1200px;
     max-width: 100%;
 }
