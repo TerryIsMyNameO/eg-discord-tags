@@ -51,6 +51,9 @@ body {
 
 #search-box {
   flex: 1; /* Take up remaining space */
+  display: flex; 
+  align-items: center;
+  position: relative;
   margin: 10px 20px 10px 0px;
 }
 
