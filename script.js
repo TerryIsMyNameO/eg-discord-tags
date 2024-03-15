@@ -42,7 +42,7 @@ fetch('gallery-data.json')
 
       imageContainer.appendChild(image);
       iconContainer.appendChild(icon);
-      imageContainer.appendChild(iconcontainer);
+      imageContainer.appendChild(iconContainer);
       galleryDiv.appendChild(imageContainer);
     });
   })
