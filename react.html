@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EG Fake Nitro Reactions</title>
+<style>
+  * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box; 
+      box-sizing: border-box; 
+  }
+
+  html, body {
+    margin: 0;
+    height: 100%;
+    scrollbar-color: #999 transparent;
+  }
+
+  body {
+    background-color: #151515;
+    color: white;
+    font-family:sans-serif, arial;
+    padding: 20px;
+  }
+
+  #wrapper {
+    background-color: #151515;
+    margin:0 auto;
+    padding:20px;
+    width:580px;
+    max-width:100%;
+    height: 100%;
+    max-height:600px;
+    position: relative;
+    overflow:auto;
+  }
+
+  .server, .emoji {
+    display:block;
+  }
+
+  .server {
+    color: white;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 15px 0;
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+  }
+
+  .server:after {
+    content: '❯';
+    display: inline-block;
+    margin-left: .75em;
+  }
+
+  .active:after {
+    transform: rotate(90deg);
+  }
+
+  .emoji-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .emoji {
+    width: 58px;
+    height: 58px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-size: 48px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .emoji:hover {
+    background-color: #444;
+  }
+
+  #input-container {
+    width: 450px;
+    background-color: black;
+    border-radius: 10px;
+    border:1px solid #ccc;
+  }
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    z-index: 999;
+  }
+
+  .input-container input {
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+  }
+
+
+  .input-container button {
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+<button class="server active">House of the Union Dragon</button>
+<div class="emoji-container" style="max-height:none;">
+    <span class="emoji" data-code="Clap:1119050020658892851" title="Clap" style="background-image: url('emotes/eg/clap.gif')"></span>
+    <span class="emoji" data-code="HUHH:1119049680844759141" title="HUHH" style="background-image: url('emotes/eg/huhh.gif')"></span>
+    <span class="emoji" data-code="Leaving:1213954723758080061" title="Leaving" style="background-image: url('emotes/eg/leaving.gif')"></span>
+    <span class="emoji" data-code="LongDucky:1213954890297122931" title="LongDucky" style="background-image: url('emotes/eg/longducky.gif')"></span>
+    <span class="emoji" data-code="NOOOOO:1119050372732964894" title="NOOOOO" style="background-image: url('emotes/eg/nooooo.gif')"></span>
+    <span class="emoji" data-code="Nodders:1216505078580772904" title="Nodders" style="background-image: url('emotes/eg/nodders.gif')"></span>
+    <span class="emoji" data-code="Nopers:1216505459159072849" title="Nopers" style="background-image: url('emotes/eg/nopers.gif')"></span>
+    <span class="emoji" data-code="PETPET:1119049764651143268" title="PETPET" style="background-image: url('emotes/eg/petpet.gif')"></span>
+    <span class="emoji" data-code="PartyPup:1201634526191955988" title="PartyPup" style="background-image: url('emotes/eg/partypup.gif')"></span>
+    <span class="emoji" data-code="PetMoth:1121188998270943314" title="PetMoth" style="background-image: url('emotes/eg/petmoth.gif')"></span>
+    <span class="emoji" data-code="PrideArrives:1121189004105228319" title="PrideArrives" style="background-image: url('emotes/eg/pridearrives.gif')"></span>
+    <span class="emoji" data-code="PrideSpin:1121182755485667440" title="PrideSpin" style="background-image: url('emotes/eg/pridespin.gif')"></span>
+    <span class="emoji" data-code="RosaDance:1128396583029985431" title="RosaDance" style="background-image: url('emotes/eg/rosadance.gif')"></span>
+    <span class="emoji" data-code="SPEED:1213954579474157628" title="SPEED" style="background-image: url('emotes/eg/speed.gif')"></span>
+    <span class="emoji" data-code="TIMER:1119051086326681600" title="TIMER" style="background-image: url('emotes/eg/timer.gif')"></span>
+    <span class="emoji" data-code="carJAM:1119052335734333470" title="carJAM" style="background-image: url('emotes/eg/carjam.gif')"></span>
+    <span class="emoji" data-code="cubeJAM:1119052340528422952" title="cubeJAM" style="background-image: url('emotes/eg/cubejam.gif')"></span>
+    <span class="emoji" data-code="hackerduck:1192136023329751121" title="hackerduck" style="background-image: url('emotes/eg/hackerduck.gif')"></span>
+    <span class="emoji" data-code="mothDance:1119050018129707068" title="mothDance" style="background-image: url('emotes/eg/mothdance.gif')"></span>
+    <span class="emoji" data-code="mothDrum:1119052338066362529" title="mothDrum" style="background-image: url('emotes/eg/mothdrum.gif')"></span>
+    <span class="emoji" data-code="otterJAM:1090313832271978527" title="otterJAM" style="background-image: url('emotes/eg/otterjam.gif')"></span>
+    <span class="emoji" data-code="ratJAM:1119049723597295668" title="ratJAM" style="background-image: url('emotes/eg/ratjam.gif')"></span>
+
+</div>
+
+<button class="server active" title="Extra Storage">Extra Storage</button>
+<div class="emoji-container" style="max-height:none;">
+    <span class="emoji" data-code="MadgeHolding:1217161465635803257" title="MadgeHolding" style="background-image: url('emotes/storage/madgeholding.png')"></span>
+    <span class="emoji" data-code="antiappel:1216419242300412046" title="antiappel" style="background-image: url('emotes/storage/antiappel.png')"></span>
+    <span class="emoji" data-code="striking:1216421281495519333" title="striking" style="background-image: url('emotes/storage/striking.png')"></span>
+    <span class="emoji" data-code="SadCat:1216425694419226744" title="SadCat" style="background-image: url('emotes/storage/sadcat.png')"></span>
+    <span class="emoji" data-code="screm:1216323225961631845" title="screm" style="background-image: url('emotes/storage/screm.png')"></span>
+    <span class="emoji" data-code="cheesegoblin:1216379436245454849" title="cheesegoblin" style="background-image: url('emotes/storage/cheesegoblin.png')"></span>
+    <span class="emoji" data-code="cheesegoblin2:1216380954575110244" title="cheesegoblin2" style="background-image: url('emotes/storage/cheesegoblin2.png')"></span>
+</div>
+
+<button class="server active" title="DougDoug">DougDoug</button>
+<div class="emoji-container" style="max-height:none;">
+    <span class="emoji" data-code="PANIC:721440664704909322" title="PANIC" style="background-image: url('emotes/doug/panic.png')"></span>
+    <span class="emoji" data-code="acrew:1006692938551664660" title="acrew" style="background-image: url('emotes/doug/acrew.png')"></span>
+    <span class="emoji" data-code="zcrew:696182860541067295" title="zcrew" style="background-image: url('emotes/doug/zcrew.png')"></span>
+    <span class="emoji" data-code="dougShank:799054220967542794" title="dougShank" style="background-image: url('emotes/doug/dougshank.png')"></span>
+    <span class="emoji" data-code="DougDougTeeth:1070353132711858216" title="DougDougTeeth" style="background-image: url('emotes/doug/dougdougteeth.gif')"></span>
+    <span class="emoji" data-code="dougdougconfused:1081377237573586974" title="dougdougconfused" style="background-image: url('emotes/doug/dougdougconfused.png')"></span>
+    <span class="emoji" data-code="pepperLUL:820778062579892284" title="pepperLUL" style="background-image: url('emotes/doug/pepperlul.png')"></span>
+    <span class="emoji" data-code="pepperUwu:805124598617735238" title="pepperUwu" style="background-image: url('emotes/doug/pepperuwu.png')"></span>
+    <span class="emoji" data-code="POWPOW:754425380001022012" title="POWPOW" style="background-image: url('emotes/doug/powpow.gif')"></span>
+    <span class="emoji" data-code="catJAM:740629137143627969" title="catJAM" style="background-image: url('emotes/doug/catjam.gif')"></span>
+    <span class="emoji" data-code="dancefrog:1047553094755557527" title="dancefrog" style="background-image: url('emotes/doug/dancefrog.gif')"></span>
+
+</div>
+
+
+  <div id="input-container" class="input-container" style="display: none;">
+    <input type="text" id="input-field" placeholder="Message ID or Message Link">
+    <button id="go-button">Copy Command</button>
+  </div>
+</div>
+
+
+<script>
+
+var servers = document.getElementsByClassName("server");
+var i;
+
+for (i = 0; i < servers.length; i++) {
+  servers[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight == 'none'){
+      content.style.maxHeight = 0;
+    } else {
+      content.style.maxHeight = 'none';
+    }
+  });
+}
+
+const emojis = document.querySelectorAll('.emoji');
+const inputContainer = document.getElementById('input-container');
+const wrapper = document.getElementById('wrapper');
+const inputField = document.getElementById('input-field');
+const goButton = document.getElementById('go-button');
+
+let selectedEmojiCode = ''; // Define a variable to store the selected emoji code
+
+emojis.forEach(emoji => {
+  emoji.addEventListener('click', (event) => {
+    const x = 5;
+    const y = event.clientY;
+    
+    // Get the emoji code from the data attribute of the clicked emoji
+    selectedEmojiCode = emoji.getAttribute('data-code');
+
+    inputContainer.style.display = 'flex';
+    inputContainer.style.left = `${x}px`;
+    inputContainer.style.top = `${y - 50}px`;
+
+    // Focus on the input field
+    inputField.focus();
+  });
+});
+
+// Add event listener to document to hide input container when clicked outside of it
+document.addEventListener('click', (event) => {
+  const isClickInsideInputContainer = inputContainer.contains(event.target);
+  const isClickInsideEmojis = Array.from(emojis).some(emoji => emoji.contains(event.target));
+
+  if (!isClickInsideInputContainer && !isClickInsideEmojis) {
+    inputContainer.style.display = 'none';
+  }
+});
+
+// Add event listener to input field to copy input and selected emoji code to clipboard on Enter press
+inputField.addEventListener('keyup', (event) => {
+  if (event.key === 'Enter') {
+    copyToClipboard();
+  }
+});
+
+// Add event listener to button to copy input and selected emoji code to clipboard on click
+goButton.addEventListener('click', copyToClipboard);
+
+
+ function copyToClipboard() {
+    const inputValue = inputField.value;
+
+    // Use the selectedEmojiCode variable to get the code of the selected emoji
+    const emojiCode = selectedEmojiCode;
+    // Take input after the last /
+    const MsgID = inputValue.substring(inputValue.lastIndexOf('/') + 1);
+
+    const textToCopy = `COMMAND react ${MsgID} ${emojiCode}`;
+
+    const dummyElement = document.createElement('textarea');
+    dummyElement.value = textToCopy;
+    document.body.appendChild(dummyElement);
+    dummyElement.select();
+    document.execCommand('copy');
+    document.body.removeChild(dummyElement);
+
+    alert('Command copied to clipboard: ' + textToCopy);
+
+    //Clear input field
+    inputField.value = '';
+
+    // Hide the input container after copying to clipboard
+    inputContainer.style.display = 'none';
+  }
+</script>
+
+
+
+</body>
+</html>
