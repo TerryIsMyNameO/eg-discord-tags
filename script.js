@@ -14,8 +14,8 @@ fetch('gallery-data.json')
       imageContainer.setAttribute('data-category', item.category);
 
       const cmdName = 'name: ' + item.name;
-      const cmdCat = ''; // Initialize cmdCat
-      const dispCat = ''; // Initialize dispCat
+      var cmdCat = ''; // Initialize cmdCat
+      var dispCat = ''; // Initialize dispCat
 
       //check if tag is categorized and update cmdCat and dispCat
       if (item.category !== ''){
