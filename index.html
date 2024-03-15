@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>EG Discord Tag Gallery</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EG Discord Tag Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
 
 <div id="wrapper">
   <div id="search-box">
-    <input type="text" id="search" placeholder="Search...">
+    <input type="text" id="search" placeholder="Tag Search...">
     <button id="clear-search" style="display: none;">ⓧ</button>
   </div>
 
   <div id="category-links">
-    <!-- Links for filtering images by category -->
     <a href="#" class="category-link active-category" data-category="all">All Categories</a>
     <a href="#" class="category-link" data-category="Dead">Dead</a>
     <a href="#" class="category-link" data-category="Pet">Pet</a>
-    <a href="#" class="category-link" data-category="Uncategorized">Uncategorized</a>
+    <a href="#" class="category-link" data-category="">Uncategorized</a>
     <a href="#" class="category-link" data-category="Bonk">Bonk</a>
   </div>
 
   <div id="gallery"></div>
 
 </div>
+
+<div id="info-button">ⓘ</div>
+
 <script src="script.js"></script>
+
 </body>
 </html>
