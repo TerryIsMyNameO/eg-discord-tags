@@ -89,6 +89,12 @@
     "name": "Idk",
     "category": "Dead"
   },
+    {
+    "src": "dead/hospital.png",
+    "keywords": "",
+    "name": "Hospital",
+    "category": "Dead"
+  },
    {
     "src": "dead/gun.png",
     "keywords": "can someone take their gun already",
@@ -105,6 +111,12 @@
     "src": "dead/fine.png",
     "keywords": "",
     "name": "Fine",
+    "category": "Dead"
+  },
+  {
+    "src": "dead/dee.png",
+    "keywords": "",
+    "name": "Dee",
     "category": "Dead"
   },
   {
@@ -357,6 +369,12 @@
     "src": "pet/eax.gif",
     "keywords": "pettheeax",
     "name": "Eax",
+    "category": "Pet"
+  },
+  {
+    "src": "pet/ducky.gif",
+    "keywords": "pettheducky",
+    "name": "Ducky",
     "category": "Pet"
   },
   {
