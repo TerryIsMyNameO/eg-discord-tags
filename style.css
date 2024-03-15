@@ -118,6 +118,10 @@ body {
     font-size: 40px;
 }
 
+.icon svg {
+  height: 50px;
+}
+
 .image-container:hover .icon {
     display: flex;
 }
@@ -135,16 +139,12 @@ body {
     cursor: pointer;
 }
 
-.react-button {
+#react-button {
   height: 2.5em;
   cursor: pointer;
   opacity: 70%;
 }
 
-.react-button:hover{
+#react-button:hover{
   opacity: 100%;
-}
-
-.icon svg {
-  height: 50px;
 }
