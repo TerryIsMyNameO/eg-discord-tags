@@ -21,6 +21,7 @@ body {
     min-height: 100%;
     margin:0 auto;
     background-color: #313338;
+    position: relative;
 }
 
 
@@ -29,6 +30,7 @@ body {
     color: white;
     background-color: #232428;
     text-decoration: none;
+    font-weight: bold;
     padding:10px 15px;
     margin: 5px;
     border-radius: 10px;
@@ -40,28 +42,27 @@ body {
 
 .active-category {
     background-color:#01BBE4 !important;
-    font-weight: bold;
 }
 
 #topbar {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 
 #search-box {
-  flex: 1; /* Take up remaining space */
-  display: flex; 
-  align-items: center;
-  position: relative;
-  margin: 10px 20px 10px 0px;
+    flex: 1; /* Take up remaining space */
+    display: flex; 
+    align-items: center;
+    position: relative;
+    margin: 1em 20px 10px 0px
 }
 
 #search {
     font-size:1.25em;
     color: white;
     padding: .5em 1em;
-    background-color:#121212;
+    background-color:#1c1c1c;
     border:none;
     outline: none;
     width: 100%;
@@ -122,7 +123,7 @@ body {
 }
 
 .icon svg {
-  height: 50px;
+    height: 50px;
 }
 
 .image-container:hover .icon {
@@ -143,11 +144,26 @@ body {
 }
 
 #react-button {
-  height: 2.5em;
-  cursor: pointer;
-  opacity: 70%;
+    height: 2.5em;
+    cursor: pointer;
+    opacity: 55%;
 }
 
-#react-button:hover{
-  opacity: 100%;
+#react-button:hover, #react-button.active{
+    opacity: 100%;
 }
+
+
+#emotes {
+    width: 620px;
+    height: 640px;
+    border:none;
+    position: absolute;
+    right:0;
+    top:5em;
+    z-index: 9999;
+    max-width: 100%;
+    border: 20px solid transparent;
+}
+
+
