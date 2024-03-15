@@ -16,7 +16,7 @@ fetch('gallery-data.json')
 
       const cmdName = 'name: ' + item.name;
       var cmdCat = ''; // Initialize cmdCat
-      var dispCat = ''; // Initialize dispCat
+      var dispCat = ''; // Initialize
 
       // Check if tag is categorized and update cmdCat and dispCat
       if (item.category !== ''){
@@ -153,9 +153,33 @@ function copyToClipboard(text) {
 }
 
 // Listen for when the react button is clicked
-document.getElementById('react-button').addEventListener('click', function(event) {
-  alert("uh..this doesn't do anything yet");
+const reactButton = document.getElementById('react-button');
+const emoteMenu = document.getElementById('emotes');
+
+reactButton.addEventListener('click', function(event) {
+  toggleEmoteMenu();
 });
+
+
+// Add event listener to hide iframe when clicked outside of it
+document.addEventListener('click', (event) => {
+  const isClickOnReactButton = reactButton.contains(event.target);
+  if (!isClickOnReactButton && reactButton.classList.contains('active')) {
+    toggleEmoteMenu();
+  }
+});
+
+// Function to toggle emote menu
+function toggleEmoteMenu(){
+    //check if reaction menu is active and toggle on/off
+    if(reactButton.classList.contains('active')){
+    reactButton.classList.remove('active');
+    emotes.style.display = 'none';
+  } else {
+    reactButton.classList.add('active');
+    emotes.style.display = 'block';
+  }
+}
 
 // Listen for when the info button is clicked
 document.getElementById('info-button').addEventListener('click', function(event) {
