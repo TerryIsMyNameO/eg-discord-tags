@@ -3,667 +3,667 @@
     "src": "dead/yes.png",
     "keywords": "",
     "name": "Yes",
-    "category": "Dead",
+    "category": "Dead"
   },
     {
     "src": "dead/wave.png",
     "keywords": "hi",
     "name": "Wave",
-    "category": "Dead",
+    "category": "Dead"
   },
   {
     "src": "dead/wait.png",
     "keywords": "wait till until I reveive",
     "name": "Wait",
-    "category": "Dead",
+    "category": "Dead"
   },
   {
     "src": "dead/talk.png",
     "keywords": "",
     "name": "Talk",
-    "category": "Dead",
+    "category": "Dead"
   },
   {
     "src": "dead/sleep.png",
     "keywords": "",
     "name": "Sleep",
-    "category": "Dead",
+    "category": "Dead"
   },
   {
     "src": "dead/sadcat.png",
     "keywords": "",
     "name": "SadCat",
-    "category": "Dead",
+    "category": "Dead"
   },
   {
     "src": "dead/ouija.png",
     "keywords": "Ouijaboard board",
     "name": "Ouija",
-    "category": "Dead",
+    "category": "Dead"
   },
   {
     "src": "dead/notfine.png",
     "keywords": "it's not fine",
     "name": "NotFine",
-    "category": "Dead",
+    "category": "Dead"
   },
   {
     "src": "dead/no.png",
     "keywords": "",
     "name": "No",
-    "category": "Dead",
+    "category": "Dead"
   },
   {
     "src": "dead/night.png",
     "keywords": "",
     "name": "Night",
-    "category": "Dead",
+    "category": "Dead"
   },
   {
     "src": "dead/luigi.png",
     "keywords": "",
     "name": "Luigi",
-    "category": "Dead",
+    "category": "Dead"
   },
   {
     "src": "dead/letmetalk.png",
     "keywords": "please give me a few momment after reviving so I can actually say something",
     "name": "LetMeTalk",
-    "category": "Dead",
+    "category": "Dead"
   },
   {
     "src": "dead/knife.png",
     "keywords": "",
     "name": "Knife",
-    "category": "Dead",
+    "category": "Dead"
   },
   {
     "src": "dead/kill.png",
     "keywords": "you fucking fuckin killed me D:",
     "name": "Kill",
-    "category": "Dead",
+    "category": "Dead"
   },
   {
     "src": "dead/idk.png",
     "keywords": "I don't know",
     "name": "Idk",
-    "category": "Dead",
+    "category": "Dead"
   },
    {
     "src": "dead/gun.png",
     "keywords": "can someone take their gun already",
     "name": "Gun",
-    "category": "Dead",
+    "category": "Dead"
   },
   {
     "src": "dead/growup.png",
     "keywords": "Killing me just because I tried to kill you? Grow up",
     "name": "GrowUp",
-    "category": "Dead",
+    "category": "Dead"
   },
   {
     "src": "dead/fine.png",
     "keywords": "",
     "name": "Fine",
-    "category": "Dead",
+    "category": "Dead"
   },
   {
     "src": "dead/dang.png",
     "keywords": "",
     "name": "Dang",
-    "category": "Dead",
+    "category": "Dead"
   },
    {
     "src": "dead/madgeholding.png",
     "keywords": "pixel",
     "name": "MadgeHolding",
-    "category": "Dead",
+    "category": "Dead"
   },
    {
     "src": "dead/again.png",
     "keywords": "really",
     "name": "Again",
-    "category": "Dead",
+    "category": "Dead"
   },
   {
     "src": "pet/zeno.gif",
     "keywords": "petthezeno",
     "name": "Zeno",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/zelda.gif",
     "keywords": "petthezelda",
     "name": "Zelda",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/zeidor.gif",
     "keywords": "petthezeidor",
     "name": "Zeidor",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/wantoo.gif",
     "keywords": "petthewantoo",
     "name": "WanToo",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/ty.gif",
     "keywords": "petthety",
     "name": "Ty",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/twitch.gif",
     "keywords": "petthetwitch",
     "name": "Twitch",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/tomkitten.gif",
     "keywords": "petthetomkitten",
     "name": "TomKitten",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/terry.gif",
     "keywords": "pettheterry",
     "name": "Terry",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/smeargle.gif",
     "keywords": "petthesmeargle",
     "name": "Smeargle",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/simba.gif",
     "keywords": "petthesimba",
     "name": "Simba",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/sanchez.gif",
     "keywords": "petthesanchez",
     "name": "Sanchez",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/rowful.gif",
     "keywords": "pettherowful robot",
     "name": "Rowful",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/rosa.gif",
     "keywords": "pettherosa",
     "name": "Rosa",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/queb.gif",
     "keywords": "petthequeb",
     "name": "Queb",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/plant.gif",
     "keywords": "pettheplant",
     "name": "Plant",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/pixel.gif",
     "keywords": "petthepixel",
     "name": "Pixel",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/penny.gif",
     "keywords": "petthepenny",
     "name": "Penny",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/notrobot.gif",
     "keywords": "petthenotrobot kyle",
     "name": "NotRobot",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/noctis.gif",
     "keywords": "petthenoctis",
     "name": "Noctis",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/ninji.gif",
     "keywords": "pettheninji",
     "name": "Ninji",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/moth.gif",
     "keywords": "petthemoth pride",
     "name": "Moth",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/moose.gif",
     "keywords": "petthemoose",
     "name": "Moose",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/mods.gif",
     "keywords": "petthemods",
     "name": "Mods",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/misty.gif",
     "keywords": "petthemisty",
     "name": "Misty",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/meowth.gif",
     "keywords": "petthemeowth",
     "name": "Meowth",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/majima.gif",
     "keywords": "petthemajima",
     "name": "Majima",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/luna.gif",
     "keywords": "pettheluna",
     "name": "Luna",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/loyben.gif",
     "keywords": "pettheloyben lou",
     "name": "Loyben",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/link.gif",
     "keywords": "petthelink",
     "name": "Link",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/king.gif",
     "keywords": "pettheking interestking",
     "name": "King",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/kiki.gif",
     "keywords": "petthekiki",
     "name": "Kiki",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/justin.gif",
     "keywords": "petthejustin",
     "name": "Justin",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/joush.gif",
     "keywords": "petthejoush",
     "name": "Joush",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/hook.gif",
     "keywords": "petthehook captain",
     "name": "Hook",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/hejhog.gif",
     "keywords": "petthehejhog",
     "name": "HejHog",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/hamster.gif",
     "keywords": "petthehamster",
     "name": "Hamster",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/green.gif",
     "keywords": "petthegreen",
     "name": "Green",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/fudge.gif",
     "keywords": "petthefudge",
     "name": "Fudge",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/eax.gif",
     "keywords": "pettheeax",
     "name": "Eax",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/drak.gif",
     "keywords": "petthedrak",
     "name": "Drak",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/cheesegoblin.gif",
     "keywords": "petthecheesegoblin",
     "name": "CheeseGoblin",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/captain.gif",
     "keywords": "petthecaptain p ness penis",
     "name": "Captain",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/bunny.gif",
     "keywords": "petthebunny cranky",
     "name": "Bunny",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/being.gif",
     "keywords": "petthebeing athebeing",
     "name": "Being",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/appel.gif",
     "keywords": "pettheappel sour",
     "name": "Appel",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/3.gif",
     "keywords": ":3 petthe",
     "name": "3",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/222dog.gif",
     "keywords": "petthe222dog bear",
     "name": "222Dog",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/222.gif",
     "keywords": "petthe222 robert katie",
     "name": "222",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "pet/17.gif",
     "keywords": "petthe17 seventeen",
     "name": "17",
-    "category": "Pet",
+    "category": "Pet"
   },
   {
     "src": "bonk/17.gif",
     "keywords": "seventeen",
     "name": "17",
-    "category": "Bonk",
+    "category": "Bonk"
   },
   {
     "src": "bonk/queb.gif",
     "keywords": "",
     "name": "Queb",
-    "category": "Bonk",
+    "category": "Bonk"
   },
   {
     "src": "uncategorized/boat.png",
     "keywords": "",
     "name": "boat",
-    "category": "",
+    "category": ""
   },
   {
     "src": "uncategorized/sus.gif",
     "keywords": "sus eyes pepe",
     "name": "sus",
-    "category": "",
+    "category": ""
   },
   {
     "src": "uncategorized/spam.png",
     "keywords": "",
     "name": "spam",
-    "category": "",
+    "category": ""
   },
   {
     "src": "uncategorized/salty.gif",
     "keywords": "",
     "name": "salty",
-    "category": "",
+    "category": ""
   },
   {
     "src": "uncategorized/ratjam.gif",
     "keywords": "",
     "name": "ratJAM",
-    "category": "",
+    "category": ""
   },
   {
     "src": "uncategorized/plonk.gif",
     "keywords": "",
     "name": "plonk",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/plink.gif",
     "keywords": "",
     "name": "plink",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/pikaomg.gif",
     "keywords": "surprised pikachu",
     "name": "pikaOMG",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/kindamean.png",
     "keywords": "that was kinda kind of mean man :(",
     "name": "kindamean",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/kindahurt.png",
     "keywords": "that kinda kind hurt my feelings ngl",
     "name": "kindahurt",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/gotosleep.png",
     "keywords": "eepy",
     "name": "gotosleep",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/duckinator.png",
     "keywords": "terminator",
     "name": "duckinator",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/catjam.gif",
     "keywords": "",
     "name": "catJAM",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/carjam.gif",
     "keywords": "",
     "name": "carJAM",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/blahaj.png",
     "keywords": "trans shark pride",
     "name": "blahaj",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/tomamore.png",
     "keywords": "kyle fallout",
     "name": "TomAmore",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/timer.gif",
     "keywords": "",
     "name": "TIMER",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/speed.gif",
     "keywords": "duck",
     "name": "SPEED",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/rowful.png",
     "keywords": "robot god",
     "name": "Rowful",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/otterjam.gif",
     "keywords": "",
     "name": "OtterJAM",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/nooo.gif",
     "keywords": "",
     "name": "NOOO",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/mothdance.gif",
     "keywords": "",
     "name": "MothDance",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/longduck.gif",
     "keywords": "",
     "name": "LongDuck",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/leaving.gif",
     "keywords": "duck",
     "name": "Leaving",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/huh.gif",
     "keywords": "",
     "name": "HUH",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/excited.png",
     "keywords": "duck",
     "name": "Excited",
-    "category": "",
+    "category": ""
   } 
   ,{
     "src": "uncategorized/dancefrog.gif",
     "keywords": "",
     "name": "DanceFrog",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/coolhook.png",
     "keywords": "captain",
     "name": "CoolHook",
-    "category": "",
+    "category": ""
   } 
   ,{
     "src": "uncategorized/clap.gif",
     "keywords": "",
     "name": "Clap",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/communication.png",
     "keywords": "skillfull",
     "name": "COMMUNICATION",
-    "category": "",
+    "category": ""
   } 
   ,{
     "src": "uncategorized/17boat.png",
     "keywords": "",
     "name": "17boat",
-    "category": "",
+    "category": ""
   } 
   ,{
     "src": "uncategorized/phew.gif",
     "keywords": "pepe",
     "name": "phew",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/hackerduck.gif",
     "keywords": "duck",
     "name": "HackerDuck",
-    "category": "",
+    "category": ""
   } 
   ,{
     "src": "uncategorized/partypup.gif",
     "keywords": "",
     "name": "PartyPup",
-    "category": "",
+    "category": ""
   } 
   ,{
     "src": "uncategorized/madgeholding.png",
     "keywords": "pixel",
     "name": "MadgeHolding",
-    "category": "",
+    "category": ""
   }
    ,{
     "src": "uncategorized/screm.png",
     "keywords": "noctis",
     "name": "Screm",
-    "category": "",
+    "category": ""
   } 
    ,{
     "src": "uncategorized/nopers.gif",
     "keywords": "vulpix",
     "name": "Nopers",
-    "category": "",
+    "category": ""
   }
   ,{
     "src": "uncategorized/VulpixEZ.png",
     "keywords": "",
     "name": "VulpixEZ",
-    "category": "",
+    "category": ""
   } 
    ,{
     "src": "uncategorized/noders.gif",
     "keywords": "vulpix",
     "name": "Noders",
-    "category": "",
+    "category": ""
   } 
 ]
 
