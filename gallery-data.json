@@ -439,14 +439,38 @@
   },
   {
     "src": "bonk/17.gif",
-    "keywords": "seventeen",
+    "keywords": "seventeen bonkthe17",
     "name": "17",
     "category": "Bonk"
   },
   {
     "src": "bonk/queb.gif",
-    "keywords": "",
+    "keywords": "bonkthequeb",
     "name": "Queb",
+    "category": "Bonk"
+  },
+  {
+    "src": "bonk/notrobot.gif",
+    "keywords": "kyle bonkthenotrobot",
+    "name": "NotRobot",
+    "category": "Bonk"
+  },
+  {
+    "src": "bonk/kiki.gif",
+    "keywords": "bonkthekiki",
+    "name": "Kiki",
+    "category": "Bonk"
+  },
+  {
+    "src": "bonk/appel.gif",
+    "keywords": "bonktheappel",
+    "name": "Appel",
+    "category": "Bonk"
+  },
+  {
+    "src": "bonk/terry.gif",
+    "keywords": "bonktheterry",
+    "name": "Terry",
     "category": "Bonk"
   },
   {
