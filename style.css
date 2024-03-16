@@ -6,10 +6,10 @@
 
 html,body { 
     height:100%;
+    margin:0;
 }
 
 body {
-    margin:0;
     background-color: #222222;
     color: white;
     font-family:sans-serif, arial;
@@ -24,6 +24,9 @@ body {
     position: relative;
 }
 
+#category-links {
+    margin: 15px 0;
+}
 
 .category-link {
     display:inline-block;
@@ -36,13 +39,10 @@ body {
     border-radius: 10px;
 }
 
-#category-links {
-    margin: 15px 0;
+.active-category {
+    background-color:#01BBE4;
 }
 
-.active-category {
-    background-color:#01BBE4 !important;
-}
 
 #topbar {
     display: flex;
@@ -51,19 +51,21 @@ body {
 
 
 #search-box {
-    flex: 1; /* Take up remaining space */
-    display: flex; 
+    flex: 1;
     align-items: center;
     position: relative;
-    margin: 1em 20px 10px 0px
+    margin: 1em 20px 10px 0px;
+}
+
+#search, #clear-search {
+    font-size: 1.25em;
+    color: white;
+    border: none;
 }
 
 #search {
-    font-size:1.25em;
-    color: white;
     padding: .5em 1em;
     background-color:#1c1c1c;
-    border:none;
     outline: none;
     width: 100%;
     border-radius: 10px;
@@ -75,12 +77,9 @@ body {
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
-    cursor: pointer;
     background-color: transparent;
-    color: white;
-    border: none;
     font-weight: bold;
-    font-size: 1.25em;
+    cursor: pointer;
 }
 
 #gallery {
@@ -94,7 +93,6 @@ body {
 .image-container {
     width: 200px;
     margin: 0 auto;
-    text-align: center;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
@@ -115,24 +113,29 @@ body {
     height: 100%;
     width: 200px;
     display: none;
-    justify-content: center;
-    align-items: center;
     background-color: rgba(33, 33, 33, .5);
     color: rgba(255, 255, 255, .85);
-    font-size: 40px;
 }
 
 .icon svg {
     height: 50px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .image-container:hover .icon {
-    display: flex;
+    display: block;
+}
+
+#info-button, #react-button {
+    cursor: pointer;
 }
 
 #info-button {
     color: white;
-    z-index: 999;
+    z-index: 99;
     position: fixed;
     right: 0px;
     bottom: 0px;
@@ -140,12 +143,10 @@ body {
     font-weight: bold;
     padding: 10px 15px;
     background-color: rgba(0, 0, 0, 0.5);
-    cursor: pointer;
 }
 
 #react-button {
     height: 2.5em;
-    cursor: pointer;
     opacity: 55%;
 }
 
@@ -161,11 +162,9 @@ body {
     position: absolute;
     right:0;
     top:5em;
-    z-index: 9999;
+    z-index: 999;
     max-width: 100%;
     max-height: calc(100% - 5em);
     border: 20px solid transparent;
     filter:drop-shadow(rgba(255, 255, 255, 0.15) 0px 0px 8px);
 }
-
-
