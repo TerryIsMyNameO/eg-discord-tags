@@ -87,36 +87,35 @@
 
   #input-container {
     width: 450px;
+    max-width:calc(100% - 52px);
     background-color: black;
     border-radius: 10px;
     border:1px solid #ccc;
-  }
-
-  .input-container {
     display: flex;
     align-items: center;
-    margin: 10px;
     padding: 10px;
-    position: absolute;
-    z-index: 999;
+    margin: 15px auto;
+    position: fixed;
   }
 
-  .input-container input {
+  #input-container input {
     background-color: black;
     color: white;
     border: none;
     outline: none;
     flex-grow: 1;
+    overflow: hidden;
   }
 
 
-  .input-container button {
+  #input-container button {
     background-color: #555;
     color: white;
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
     cursor: pointer;
+    overflow: hidden;
   }
 
 </style>
@@ -148,7 +147,6 @@
     <span class="emoji" data-code="mothDrum:1119052338066362529" title="mothDrum" style="background-image: url('emotes/eg/mothdrum.gif')"></span>
     <span class="emoji" data-code="otterJAM:1090313832271978527" title="otterJAM" style="background-image: url('emotes/eg/otterjam.gif')"></span>
     <span class="emoji" data-code="ratJAM:1119049723597295668" title="ratJAM" style="background-image: url('emotes/eg/ratjam.gif')"></span>
-
 </div>
 
 <button class="server active" title="Extra Storage">Extra Storage</button>
@@ -178,10 +176,11 @@
 
 </div>
 
-
-  <div id="input-container" class="input-container" style="display: none;">
+  <div>
+  <div id="input-container" style="display: none;">
     <input type="text" id="input-field" placeholder="Message ID or Message Link">
     <button id="go-button">Copy Command</button>
+  </div>
   </div>
 </div>
 
@@ -213,14 +212,12 @@ let selectedEmojiCode = ''; // Define a variable to store the selected emoji cod
 
 emojis.forEach(emoji => {
   emoji.addEventListener('click', (event) => {
-    const x = 5;
     const y = event.clientY;
     
     // Get the emoji code from the data attribute of the clicked emoji
     selectedEmojiCode = emoji.getAttribute('data-code');
 
     inputContainer.style.display = 'flex';
-    inputContainer.style.left = `${x}px`;
     inputContainer.style.top = `${y - 50}px`;
 
     // Focus on the input field
