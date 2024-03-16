@@ -164,6 +164,7 @@ body {
     z-index: 9999;
     max-width: 100%;
     border: 20px solid transparent;
+    filter:drop-shadow(rgba(255, 255, 255, 0.15) 0px 0px 8px);
 }
 
 
