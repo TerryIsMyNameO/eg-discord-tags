@@ -443,6 +443,12 @@
     "name": "17",
     "category": "Bonk"
   },
+   {
+    "src": "bonk/green.gif",
+    "keywords": "lightning 6 bonkthegreen",
+    "name": "Green",
+    "category": "Bonk"
+  },
   {
     "src": "bonk/queb.gif",
     "keywords": "bonkthequeb",
