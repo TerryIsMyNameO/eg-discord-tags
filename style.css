@@ -16,7 +16,7 @@ body {
 }
 
 #wrapper {
-    padding:15px 2%;
+    padding:15px 20px;
     max-width: 1200px;
     min-height: 100%;
     margin:0 auto;
@@ -163,6 +163,7 @@ body {
     top:5em;
     z-index: 9999;
     max-width: 100%;
+    max-height: calc(100% - 5em);
     border: 20px solid transparent;
     filter:drop-shadow(rgba(255, 255, 255, 0.15) 0px 0px 8px);
 }
