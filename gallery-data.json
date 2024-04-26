@@ -180,6 +180,12 @@
     "category": "Pet"
   },
   {
+    "src": "pet/tom.gif",
+    "keywords": "petthetom dooley",
+    "name": "Tom",
+    "category": "Pet"
+  },
+  {
     "src": "pet/terry.gif",
     "keywords": "pettheterry",
     "name": "Terry",
@@ -571,7 +577,7 @@
   }
   ,{
     "src": "uncategorized/tomamore.png",
-    "keywords": "kyle fallout",
+    "keywords": "kyle fallout dooley",
     "name": "TomAmore",
     "category": ""
   }
