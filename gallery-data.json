@@ -138,6 +138,12 @@
     "category": "Dead"
   },
   {
+    "src": "dead/youcant.png",
+    "keywords": "can't onion cry",
+    "name": "YouCant",
+    "category": "Dead"
+  },
+  {
     "src": "pet/zeno.gif",
     "keywords": "petthezeno",
     "name": "Zeno",
@@ -717,6 +723,12 @@
     "src": "uncategorized/noders.gif",
     "keywords": "vulpix",
     "name": "Noders",
+    "category": ""
+  } 
+  ,{
+    "src": "uncategorized/whatdoiknow.png",
+    "keywords": "",
+    "name": "WhatDoIKnow",
     "category": ""
   } 
 ]
