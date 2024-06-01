@@ -343,7 +343,7 @@
   },
   {
     "src": "pet/joush.gif",
-    "keywords": "petthejoush",
+    "keywords": "petthejoush petthejouush jouush",
     "name": "Joush",
     "category": "Pet"
   },
@@ -489,6 +489,18 @@
     "src": "bonk/222.gif",
     "keywords": "bonkthe222 bonktherobert",
     "name": "222",
+    "category": "Bonk"
+  },
+  {
+    "src": "bonk/jouush.gif",
+    "keywords": "bonkthejouush bonkthejoush joush",
+    "name": "Jouush",
+    "category": "Bonk"
+  },
+  {
+    "src": "bonk/hamster.gif",
+    "keywords": "bonkthehamster",
+    "name": "Hamster",
     "category": "Bonk"
   },
   {
@@ -737,5 +749,16 @@
     "name": "WhatDoIKnow",
     "category": ""
   } 
+  ,{
+    "src": "uncategorized/DuringMothWeek.png",
+    "keywords": "",
+    "name": "DuringMothWeek",
+    "category": ""
+  }
+  ,{
+    "src": "uncategorized/DuringPride.png",
+    "keywords": "lgbt",
+    "name": "DuringPride",
+    "category": ""
+  }
 ]
-
